@@ -1,2 +1,1 @@
-"# analise_bbb" 
-"# analise_bbb" 
+Tabalho ralizado para conclusão do curso "Python para quem usa R" da plataforma Curso-R
