@@ -144,18 +144,60 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li>Interativo</li>
 <li>Conclusão</li>
+<li>Referências</li>
 </ul>
-<div class="cell" data-execution_count="31">
+<div class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unidecode <span class="im">import</span> unidecode</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> zodiac_sign <span class="im">import</span> get_zodiac_sign</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> date, datetime</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy <span class="im">import</span> isnan</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>data_raw <span class="op">=</span> pd.read_csv(<span class="st">"data/dados.csv"</span>, sep <span class="op">=</span> <span class="st">";"</span>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>data_raw.head(<span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="31">
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>data_raw <span class="op">=</span> pd.read_csv(<span class="st">"data/dados.csv"</span>, sep <span class="op">=</span> <span class="st">";"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="introdução" class="level3">
+<h3 class="anchored" data-anchor-id="introdução">Introdução</h3>
+<div style="text-align: justify">
+ Big Brother Brasil (BBB) é atualmente o maior reality show transmitido em TV aberta brasileira. Com origem em 1998, nos EUA, o programa é baseado no conceito do “Grande Irmão”, do livro 1984 (George Orwell, 1949), que vigia ininteruptamente os moradores de seu pais. A premissa principal do programa é o isolamento de seus participantes durante 3 meses na “casa mais vigiada do Brasil” com pessoas desconhecidas (e famosos atualmente). <br> Semanalmente, os participantes passam por desafios que podem trazer recompensas, como a provas do lider ou do anjo, que concedem imunidade e estalecas (moeda ficticia do programa) aos vencedores, e punição aos menos queridos, com o castigo do monstro. Parte de sua popularidade esta no fato da diversidade dos candidatos, trazendo um elenco de pessoas de diversas etnias, idades e gêneros. <br> A ideia desse relatório é explorar quais são as caracteristicas mais comuns nos candidatos escolhidos, principalmente em relação a idade, profissão e origem, criando um perfil do que seria o “candidato ideal” para a vitória da competição. Se passou pela sua cabeça ser um “brother” ou “sister”, essa análise pode te ajudar a decidir se está na hora de se inscrever no programa e, quem sabe, se tonar milhonário (ou pelo menos receber o célebre título de ex-bbb).
+</div>
+</section>
+</section>
+<section id="dados" class="level2">
+<h2 class="anchored" data-anchor-id="dados">Dados</h2>
+<section id="origem" class="level3">
+<h3 class="anchored" data-anchor-id="origem">Origem</h3>
+<p> Os dados utilizados nesta análise foram compilados através de web scraping das páginas da Wikipédia referentes às 22 edições do programa. O código utilizado pode ser encontrado <a href="www.google.com.br">aqui</a></p>
+</section>
+<section id="conhecendo-os-dados" class="level3">
+<h3 class="anchored" data-anchor-id="conhecendo-os-dados">Conhecendo os dados</h3>
+<div class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>data_raw.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="2">
+<pre><code>(366, 9)</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>data_raw.dtypes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+<pre><code>nome                   object
+genero                 object
+data_nascimento        object
+idade_participacao    float64
+ocupacao               object
+municipio              object
+estado                 object
+edicao                  int64
+classificacao         float64
+dtype: object</code></pre>
+</div>
+</div>
+<p> A nossa base é composta por 362 linhas e 8 colunas. As linhas representam todos os participantes das ediçoes de 1 a 22 e as colunas representam algumas informações referentes a esses participantes: <br> - nome (str): nome completo do participante<br>  - genero (str): genero do participante (para facilitar a analise, assumiu-se o gênero de acordo com o primeiro nome do participante) <br> - data_nasciment (date): data de nascimento<br>  - idade_participacao (date): idade do participante no inicio do reality show <br> - ocupacao (str): profissões (em alguns casos, existe mais de uma profissão)<br>  - municipio (str): municipio de nascimento <br> - estado (str): estado de nascimento<br>  - classificacao (int): colocação final no programa (1 = 1º lugar, 2 = 2º lugar, etc) <br> - edicao (int): nº da edição</p>
+<div class="cell" data-execution_count="35">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>data_raw.head(<span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="35">
 
 <div>
 
@@ -169,7 +211,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <th>idade_participacao</th>
       <th>ocupacao</th>
       <th>municipio</th>
-      <th>pais</th>
+      <th>estado</th>
+      <th>edicao</th>
       <th>classificacao</th>
     </tr>
   </thead>
@@ -178,309 +221,214 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <th>0</th>
       <td>Kleber de Paula Pedra (Bambam)</td>
       <td>male</td>
-      <td>14/02/1978</td>
+      <td>1978-02-14</td>
       <td>24.0</td>
       <td>Dançarino</td>
       <td>Campinas</td>
       <td>São Paulo</td>
       <td>1</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Vanessa Melanie Pascale Ekypenyong Walborn</td>
       <td>female</td>
-      <td>28/11/1974</td>
+      <td>1974-11-28</td>
       <td>28.0</td>
       <td>Modelo</td>
       <td>Rio de Janeiro</td>
       <td>Rio de Janeiro</td>
-      <td>2</td>
+      <td>1</td>
+      <td>2.0</td>
     </tr>
     <tr>
       <th>2</th>
       <td>André Batista de Carvalho</td>
       <td>male</td>
-      <td>28/11/1974</td>
+      <td>1974-11-28</td>
       <td>28.0</td>
       <td>Professor de canto</td>
       <td>Rio de Janeiro</td>
       <td>Rio de Janeiro</td>
-      <td>3</td>
+      <td>1</td>
+      <td>3.0</td>
     </tr>
     <tr>
       <th>3</th>
       <td>Antonio Sergio Tavares Campo</td>
       <td>male</td>
-      <td>06/12/1972</td>
+      <td>1972-12-06</td>
       <td>30.0</td>
       <td>Cabeleireiro</td>
       <td>Angola</td>
       <td>Exterior</td>
-      <td>4</td>
+      <td>1</td>
+      <td>4.0</td>
     </tr>
     <tr>
       <th>4</th>
       <td>Alessandra Begliomini</td>
       <td>female</td>
-      <td>05/12/1974</td>
+      <td>1974-12-05</td>
       <td>28.0</td>
       <td>Empresária</td>
       <td>São Paulo</td>
       <td>São Paulo</td>
-      <td>5</td>
+      <td>1</td>
+      <td>5.0</td>
     </tr>
   </tbody>
 </table>
 </div>
 </div>
 </div>
-<section id="introdução" class="level3">
-<h3 class="anchored" data-anchor-id="introdução">Introdução</h3>
-<p>Texto introduzindo sobre BBB</p>
-</section>
-</section>
-<section id="dados" class="level2">
-<h2 class="anchored" data-anchor-id="dados">Dados</h2>
-<section id="origem" class="level3">
-<h3 class="anchored" data-anchor-id="origem">Origem</h3>
-</section>
-<section id="conhecendo-os-dados" class="level3">
-<h3 class="anchored" data-anchor-id="conhecendo-os-dados">Conhecendo os dados</h3>
-<div class="cell" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>data_raw.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="3">
-<pre><code>(362, 8)</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>data_raw.dtypes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="4">
-<pre><code>nome                   object
-genero                 object
-data_nascimento        object
-idade_participacao    float64
-ocupacao               object
-municipio              object
-pais                   object
-classificacao           int64
-dtype: object</code></pre>
-</div>
-</div>
-<section id="a-nossa-base-é-composta-por-362-linhas-e-8-colunas.-as-linhas-representam-todos-os-participantes-das-ediçoes-de-1-a-22-e-as-colunas-representam-algumas-informações-referentes-a-esses-participantes" class="level4">
-<h4 class="anchored" data-anchor-id="a-nossa-base-é-composta-por-362-linhas-e-8-colunas.-as-linhas-representam-todos-os-participantes-das-ediçoes-de-1-a-22-e-as-colunas-representam-algumas-informações-referentes-a-esses-participantes">A nossa base é composta por 362 linhas e 8 colunas. As linhas representam todos os participantes das ediçoes de 1 a 22 e as colunas representam algumas informações referentes a esses participantes:</h4>
-<ul>
-<li>nome (str): nome completo do participante</li>
-<li>genero (str): genero do participante (para facilitar a analise, assumiu-se o gênero de acordo com o primeiro nome do participante)</li>
-<li>data_nasciment (date): data de nascimento</li>
-<li>idade_participacao (date): idade do participante no inicio do reality show</li>
-<li>ocupacao (str): profissões (em alguns casos, existe mais de uma profissão)</li>
-<li>municipio (str): municipio de nascimento</li>
-<li>pais (str): pais de nascimento</li>
-<li>classificacao (int): colocação final no programa (1 = 1º lugar, 2 = 2º lugar, etc)</li>
-</ul>
-</section>
 </section>
 </section>
 <section id="exploração" class="level2">
 <h2 class="anchored" data-anchor-id="exploração">Exploração</h2>
 <section id="idade" class="level3">
 <h3 class="anchored" data-anchor-id="idade">Idade</h3>
-<div class="cell" data-execution_count="5">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>sns.set_style(<span class="st">"white"</span>)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> sns.histplot(data_raw, x <span class="op">=</span> <span class="st">"idade_participacao"</span>, binwidth<span class="op">=</span> <span class="dv">1</span>, kde <span class="op">=</span> <span class="va">True</span>, color <span class="op">=</span> sns.color_palette(<span class="st">"Set2"</span>)[<span class="dv">2</span>])</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>p.<span class="bu">set</span>(xlabel <span class="op">=</span> <span class="st">"Idade"</span>, ylabel <span class="op">=</span> <span class="st">"Nº participantes"</span>)</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>sns.despine(left <span class="op">=</span> <span class="va">True</span>, bottom <span class="op">=</span> <span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Vamos iniciar nossa análise verificando qual a distribuição de idade dos selecionados para o programa</p>
+<div class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>sns.set_style(<span class="st">"white"</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> sns.histplot(data_raw, x <span class="op">=</span> <span class="st">"idade_participacao"</span>, binwidth<span class="op">=</span> <span class="dv">1</span>, kde <span class="op">=</span> <span class="va">True</span>, color <span class="op">=</span> sns.color_palette(<span class="st">"Set2"</span>)[<span class="dv">2</span>])</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>p.<span class="bu">set</span>(xlabel <span class="op">=</span> <span class="st">"Idade"</span>, ylabel <span class="op">=</span> <span class="st">"Nº participantes"</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>sns.despine(left <span class="op">=</span> <span class="va">True</span>, bottom <span class="op">=</span> <span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<p><img src="main_files/figure-html/cell-5-output-1.png" class="img-fluid"></p>
+<p><img src="main_files/figure-html/cell-6-output-1.png" class="img-fluid"></p>
 </div>
 </div>
-<div class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>sns.histplot(data_raw, x <span class="op">=</span> <span class="st">"idade_participacao"</span>, hue <span class="op">=</span> <span class="st">'genero'</span>, kde <span class="op">=</span> <span class="va">True</span>, palette<span class="op">=</span> sns.color_palette(<span class="st">"Set2"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>C:\Users\Carlos\AppData\Local\Temp\ipykernel_6268\1156136826.py:1: UserWarning: The palette list has more values (8) than needed (2), which may not be intended.
-  sns.histplot(data_raw, x = "idade_participacao", hue = 'genero', kde = True, palette= sns.color_palette("Set2"))</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="6">
-<pre><code>&lt;AxesSubplot: xlabel='idade_participacao', ylabel='Count'&gt;</code></pre>
+<p>Nota-se que a há uma preferência em candidatos de 20 a 40 anos. Vamos verificar como essa distribuição varia quando consideramos também o gênero dos participantes.</p>
+<div class="cell" data-execution_count="68">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> sns.FacetGrid(data_raw, row <span class="op">=</span> <span class="st">'genero'</span>, height<span class="op">=</span> <span class="dv">2</span>, aspect<span class="op">=</span><span class="dv">3</span>, hue <span class="op">=</span> <span class="st">"genero"</span>, palette<span class="op">=</span>sns.color_palette(<span class="st">"Set2"</span>))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>p.<span class="bu">map</span>(sns.histplot, <span class="st">"idade_participacao"</span>, binwidth <span class="op">=</span> <span class="dv">1</span>, kde <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>p.set_axis_labels(<span class="st">""</span>, <span class="st">""</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>p.fig.supxlabel(<span class="st">"Idade"</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>p.fig.supylabel(<span class="st">"Nº participantes"</span>)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>axes <span class="op">=</span> p.axes.flatten()</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].set_title(<span class="st">"Masculino"</span>)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].set_title(<span class="st">"Feminino"</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>p.despine(bottom <span class="op">=</span> <span class="va">True</span>, left <span class="op">=</span> <span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="68">
+<pre><code>&lt;seaborn.axisgrid.FacetGrid at 0x180a8a4ec50&gt;</code></pre>
 </div>
 <div class="cell-output cell-output-display">
-<p><img src="main_files/figure-html/cell-6-output-3.png" class="img-fluid"></p>
+<p><img src="main_files/figure-html/cell-7-output-2.png" class="img-fluid"></p>
 </div>
 </div>
-<p>Apesar da média de idade ser bastante próxima, nota-se que pessoas do gênero feminino tendem a entrar na casa com idades mais baixas que do gênero masculino</p>
-<p>Como curiosidade, podemos verificar também se determinado signo tem mais chances de entrar no programa do que outros</p>
-<div class="cell" data-execution_count="76">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># date_str = "1998/05/29"</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co"># date = datetime.strptime(date_str, "%d/%m/%Y")</span></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co"># get_zodiac_sign(date)</span></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> pegar_signo(data):</span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>        data_formatada <span class="op">=</span> datetime.strptime(data, <span class="st">"</span><span class="sc">%d</span><span class="st">/%m/%Y"</span>)</span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>        signo <span class="op">=</span> get_zodiac_sign(data_formatada)</span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> signo</span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span>:</span>
-<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
-<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>data_raw[<span class="st">'signo'</span>] <span class="op">=</span> data_raw.<span class="bu">apply</span>(<span class="kw">lambda</span> row: pegar_signo(row[<span class="st">'data_nascimento'</span>]), axis <span class="op">=</span> <span class="dv">1</span>)</span>
-<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a><span class="co"># data_raw.apply(lambda row: neutralizar_genero(row['ocupacao']), axis = 1)</span></span>
-<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>plot <span class="op">=</span> sns.countplot(y <span class="op">=</span> data_raw[<span class="st">'signo'</span>], order <span class="op">=</span> data_raw[<span class="st">'signo'</span>].value_counts().index, palette <span class="op">=</span> <span class="st">"Purples_r"</span>)</span>
-<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>plot.<span class="bu">set</span>(xlabel <span class="op">=</span> <span class="st">"Nº de participantes"</span>, ylabel <span class="op">=</span> <span class="st">""</span>)</span>
-<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>sns.despine(left <span class="op">=</span> <span class="va">True</span>, bottom <span class="op">=</span> <span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>A partir da visualização acima, é perceptível que participantes do gênero feminino tendem a entrar com uma idade inferior aos homens, além de terem menos participantes com idades próximas ou acima de 40 anos.</p>
+<p>Podemos verificar também como a variação de idade se comporta em relação as temporadas</p>
+<div class="cell" data-execution_count="70">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>data_raw[<span class="st">'edicao'</span>] <span class="op">=</span> data_raw[<span class="st">'edicao'</span>].astype(<span class="st">"str"</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>plot <span class="op">=</span> sns.boxplot(data <span class="op">=</span> data_raw, y <span class="op">=</span> <span class="st">"edicao"</span>, x <span class="op">=</span> <span class="st">"idade_participacao"</span>, palette <span class="op">=</span> <span class="st">"Purples"</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>plot.<span class="bu">set</span>(xlabel <span class="op">=</span> <span class="st">"Idade"</span>, ylabel <span class="op">=</span> <span class="st">""</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>sns.despine(left <span class="op">=</span> <span class="va">True</span>, bottom <span class="op">=</span> <span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<p><img src="main_files/figure-html/cell-7-output-1.png" class="img-fluid"></p>
+<p><img src="main_files/figure-html/cell-8-output-1.png" class="img-fluid"></p>
 </div>
 </div>
-<p>Quando comparamos também o gênero, nota-se que há uma tendência de mulheres mais novas serem chamadas mais do que homens. E em relação e vitórias, será que existe alguma idade que possui mais chance de vencer?</p>
-<div class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>data_raw.groupby(<span class="st">"idade_participacao"</span>).agg(</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    n_participantes <span class="op">=</span> (<span class="st">"idade_participacao"</span>, <span class="st">"count"</span>),</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    pos_media <span class="op">=</span> (<span class="st">"classificacao"</span>, <span class="st">"mean"</span>)</span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>).sort_values(<span class="st">"pos_media"</span>).reset_index().rename({<span class="st">"idade_participacao"</span>: <span class="st">"Idade"</span>, <span class="st">"n_participantes"</span>: <span class="st">"Nº participantes"</span>, <span class="st">"pos_media"</span>: <span class="st">"Colocacao média"</span>}, axis <span class="op">=</span> <span class="dv">1</span>).head(<span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="7">
-
-<div>
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>Idade</th>
-      <th>Nº participantes</th>
-      <th>Colocacao média</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>71.0</td>
-      <td>1</td>
-      <td>3.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>57.0</td>
-      <td>1</td>
-      <td>3.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>44.0</td>
-      <td>1</td>
-      <td>5.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>51.0</td>
-      <td>1</td>
-      <td>6.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>21.0</td>
-      <td>10</td>
-      <td>6.1</td>
-    </tr>
-  </tbody>
-</table>
+<p>Ainda com base na idade, podemos verificar, por curiosidade, como se distribui os signos dos participantes.</p>
+<div class="cell" data-execution_count="69">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># date_str = "1998/05/29"</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co"># date = datetime.strptime(date_str, "%d/%m/%Y")</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># get_zodiac_sign(date)</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> pegar_signo(data):</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>        data_formatada <span class="op">=</span> datetime.strptime(data, <span class="st">"%Y-%m-</span><span class="sc">%d</span><span class="st">"</span>)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>        signo <span class="op">=</span> get_zodiac_sign(data_formatada)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> signo</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span>:</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>data_raw[<span class="st">'signo'</span>] <span class="op">=</span> data_raw.<span class="bu">apply</span>(<span class="kw">lambda</span> row: pegar_signo(row[<span class="st">'data_nascimento'</span>]), axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a><span class="co"># data_raw.apply(lambda row: neutralizar_genero(row['ocupacao']), axis = 1)</span></span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>plot <span class="op">=</span> sns.countplot(y <span class="op">=</span> data_raw[<span class="st">'signo'</span>], order <span class="op">=</span> data_raw[<span class="st">'signo'</span>].value_counts().index, palette <span class="op">=</span> <span class="st">"Purples_r"</span>)</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>plot.<span class="bu">set</span>(xlabel <span class="op">=</span> <span class="st">"Nº de participantes"</span>, ylabel <span class="op">=</span> <span class="st">""</span>)</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>sns.despine(left <span class="op">=</span> <span class="va">True</span>, bottom <span class="op">=</span> <span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="main_files/figure-html/cell-9-output-1.png" class="img-fluid"></p>
 </div>
 </div>
-</div>
-<div class="cell" data-execution_count="53">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>data_raw.query(<span class="st">"classificacao != 99"</span>).groupby([<span class="st">'idade_participacao'</span>]).agg(</span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    participacoes <span class="op">=</span> (<span class="st">"idade_participacao"</span>, <span class="st">"count"</span>),</span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    class_media <span class="op">=</span> (<span class="st">"classificacao"</span>, <span class="st">"mean"</span>)</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>).query(<span class="st">"participacoes &gt;= 2"</span>).sort_values(<span class="st">"class_media"</span>, ascending <span class="op">=</span> <span class="va">True</span>).reset_index().rename({<span class="st">"idade_participacao"</span>: <span class="st">"Idade"</span>, <span class="st">"class_media"</span>: <span class="st">"Classificacao média"</span>}, axis <span class="op">=</span> <span class="dv">1</span>).head(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="53">
-
-<div>
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>Idade</th>
-      <th>participacoes</th>
-      <th>Classificacao média</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>21.0</td>
-      <td>10</td>
-      <td>6.100000</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>40.0</td>
-      <td>2</td>
-      <td>6.500000</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>36.0</td>
-      <td>7</td>
-      <td>6.714286</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>20.0</td>
-      <td>5</td>
-      <td>6.800000</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>27.0</td>
-      <td>31</td>
-      <td>7.967742</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>19.0</td>
-      <td>3</td>
-      <td>8.000000</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>34.0</td>
-      <td>9</td>
-      <td>8.000000</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>23.0</td>
-      <td>17</td>
-      <td>8.235294</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>31.0</td>
-      <td>19</td>
-      <td>8.368421</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>25.0</td>
-      <td>20</td>
-      <td>8.850000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-</div>
-<p>Considerando as idades com pelo menos duas partipações, 21 anos parece ser a idade em que a média de classificação final é mais alta, seguido por 40 anos e 36 anos. Portanto, se você esta em uma dessas idades, pense em se inscrever.</p>
 </section>
 </section>
 <section id="origem-1" class="level2">
 <h2 class="anchored" data-anchor-id="origem-1">Origem</h2>
-<p>Regiões</p>
-<p>Ocupação</p>
+<div class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests <span class="im">as</span> re</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>ibge <span class="op">=</span> re.get(<span class="st">"https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?formato=application/vnd.geo+json&amp;qualidade=maxima&amp;intrarregiao=UF"</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>geodata <span class="op">=</span> gpd.read_file(ibge.text)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>siglas <span class="op">=</span> {</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="st">"12"</span>: [<span class="st">"AC"</span>, <span class="st">"Acre"</span>],</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="st">"27"</span>: [<span class="st">"AL"</span>, <span class="st">"Alagoas"</span>],</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="st">"13"</span>: [<span class="st">"AM"</span>, <span class="st">"Amazonas"</span>],</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="st">"16"</span>: [<span class="st">"AP"</span>, <span class="st">"Amapá"</span>],</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="st">"29"</span>: [<span class="st">"BA"</span>, <span class="st">"Bahia"</span>],</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="st">"23"</span>: [<span class="st">"CE"</span>, <span class="st">"Ceará"</span>],</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="st">"53"</span>: [<span class="st">"DF"</span>, <span class="st">"Distrito Federal"</span>],</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="st">"32"</span>: [<span class="st">"ES"</span>, <span class="st">"Espírito Santo"</span>],</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="st">"52"</span>: [<span class="st">"GO"</span>, <span class="st">"Goiás"</span>],</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="st">"21"</span>: [<span class="st">"MA"</span>, <span class="st">"Maranhão"</span>],</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a><span class="st">"31"</span>: [<span class="st">"MG"</span>, <span class="st">"Minas Gerais"</span>],</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a><span class="st">"50"</span>: [<span class="st">"MS"</span>, <span class="st">"Mato Grosso do Sul"</span>],</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="st">"51"</span>: [<span class="st">"MT"</span>, <span class="st">"Mato Grosso"</span>],</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="st">"15"</span>: [<span class="st">"PA"</span>, <span class="st">"Pará"</span>],</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="st">"25"</span>: [<span class="st">"PB"</span>, <span class="st">"Paraíba"</span>],</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a><span class="st">"26"</span>: [<span class="st">"PE"</span>, <span class="st">"Pernambuco"</span>],</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a><span class="st">"22"</span>: [<span class="st">"PI"</span>, <span class="st">"Piauí"</span>],</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a><span class="st">"41"</span>: [<span class="st">"PR"</span>, <span class="st">"Paraná"</span>],</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a><span class="st">"33"</span>: [<span class="st">"RJ"</span>, <span class="st">"Rio de Janeiro"</span>],</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a><span class="st">"24"</span>: [<span class="st">"RN"</span>, <span class="st">"Rio Grande do Norte"</span>],</span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a><span class="st">"11"</span>: [<span class="st">"RO"</span>, <span class="st">"Rondônia"</span>],</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a><span class="st">"14"</span>: [<span class="st">"RR"</span>, <span class="st">"Roraima"</span>],</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a><span class="st">"43"</span>: [<span class="st">"RS"</span>, <span class="st">"Rio Grande do Sul"</span>],</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a><span class="st">"42"</span>: [<span class="st">"SC"</span>, <span class="st">"Santa Catarina"</span>],</span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a><span class="st">"28"</span>: [<span class="st">"SE"</span>, <span class="st">"Sergipe"</span>],</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a><span class="st">"35"</span>: [<span class="st">"SP"</span>, <span class="st">"São Paulo"</span>],</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a><span class="st">"17"</span>: [<span class="st">"TO"</span>, <span class="st">"Tocantins"</span>]</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>geodata[<span class="st">'estado'</span>] <span class="op">=</span> geodata[<span class="st">'codarea'</span>].<span class="bu">map</span>(siglas)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>geodata[[<span class="st">"sigla"</span>, <span class="st">"estado"</span>]] <span class="op">=</span> pd.DataFrame(geodata[<span class="st">'estado'</span>].tolist(), index <span class="op">=</span> geodata.index).reset_index(drop <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>geodata[<span class="st">'estado'</span>] <span class="op">=</span> geodata[<span class="st">'estado'</span>].<span class="bu">str</span>.strip()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="23">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>estado_count <span class="op">=</span> pd.DataFrame(data_raw[<span class="st">'estado'</span>].value_counts().reset_index()).rename(columns <span class="op">=</span> {<span class="st">"index"</span>: <span class="st">"estado"</span>, <span class="st">"estado"</span>: <span class="st">"cont"</span>})</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>estado_count[<span class="st">'estado'</span>] <span class="op">=</span> estado_count[<span class="st">'estado'</span>].<span class="bu">str</span>.strip()</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>mapa_count <span class="op">=</span> geodata.merge(estado_count, how <span class="op">=</span> <span class="st">"left"</span>, on <span class="op">=</span> <span class="st">'estado'</span>).fillna(<span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="34">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>mapa_count.dissolve(<span class="st">"codarea"</span>).reset_index().plot(column <span class="op">=</span> <span class="st">"cont"</span>, cmap <span class="op">=</span> <span class="st">"crest"</span>, legend <span class="op">=</span> <span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="34">
+<pre><code>&lt;AxesSubplot: &gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="main_files/figure-html/cell-14-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="22">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>data_raw[<span class="st">'estado'</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="22">
+<pre><code>array([' São Paulo', ' Rio de Janeiro', 'Exterior', ' Bahia', ' Paraná',
+       ' Pernambuco', ' Rio Grande do Sul', ' Goiás', ' Santa Catarina',
+       ' Mato Grosso do Sul', ' Distrito Federal', ' Paraíba',
+       ' Buenos Aires', ' Minas Gerais', ' Ceará', ' Pará', ' Piauí',
+       ' Amazonas', ' Espírito Santo', ' Roraima', ' Rio Grande do Norte',
+       ' Alagoas', ' Acre', ' Alepo', ' Rondônia', ' Maranhão'],
+      dtype=object)</code></pre>
+</div>
+</div>
+</section>
+<section id="ocupação" class="level2">
+<h2 class="anchored" data-anchor-id="ocupação">Ocupação</h2>
 <p>Após o fim do programa, é normal os participantes adquirirem uma nova profissão: “Ex-BBB”, mas antes disso é necessário que eles sejam escolhidos com base nas suas profissões atuais. Além de “modelo”, quais outras profissões são importantes para ser escolhido para a casa mais vigiada do Brasil?</p>
-<div class="cell" data-execution_count="87">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>data_raw[<span class="st">'ocupacao'</span>].<span class="bu">str</span>.lower().<span class="bu">str</span>.replace(<span class="st">" e "</span>, <span class="st">","</span>).<span class="bu">str</span>.split(<span class="st">","</span>).explode().value_counts()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>data_raw[<span class="st">'ocupacao'</span>].<span class="bu">str</span>.lower().<span class="bu">str</span>.replace(<span class="st">" e "</span>, <span class="st">","</span>).<span class="bu">str</span>.split(<span class="st">","</span>).explode().value_counts()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="87">
 <pre><code>modelo                   40
 jornalista               10
@@ -497,17 +445,17 @@ Name: ocupacao, Length: 213, dtype: int64</code></pre>
 </div>
 </div>
 <p>Pode-se remover gênero, acentuação e simplificar as profissões para termos uma ideia melhor de como as profissões são distribuidas</p>
-<div class="cell" data-execution_count="8">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>profissoes <span class="op">=</span> data_raw[<span class="st">'ocupacao'</span>].<span class="bu">str</span>.lower().<span class="bu">str</span>.replace(<span class="st">" e "</span>, <span class="st">","</span>).<span class="bu">str</span>.replace(<span class="st">","</span>, <span class="st">"/"</span>).<span class="bu">str</span>.split(<span class="st">"/"</span>)</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>profissoes <span class="op">=</span> [j <span class="cf">for</span> i <span class="kw">in</span> profissoes <span class="cf">for</span> j <span class="kw">in</span> i]</span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, profissao <span class="kw">in</span> <span class="bu">enumerate</span>(profissoes):</span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    palavra <span class="op">=</span> profissao.split()[<span class="dv">0</span>]</span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> palavra <span class="op">==</span> <span class="st">"atriz"</span>:</span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>        palavra <span class="op">=</span> <span class="st">"ator"</span></span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> palavra[<span class="op">-</span><span class="dv">1</span>] <span class="kw">in</span> [<span class="st">'a'</span>, <span class="st">'o'</span>]:</span>
-<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>        palavra <span class="op">=</span> palavra[<span class="dv">0</span>:<span class="op">-</span><span class="dv">1</span>]</span>
-<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    profissoes[i] <span class="op">=</span> palavra</span>
-<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>pd.Series(profissoes).value_counts().head(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>profissoes <span class="op">=</span> data_raw[<span class="st">'ocupacao'</span>].<span class="bu">str</span>.lower().<span class="bu">str</span>.replace(<span class="st">" e "</span>, <span class="st">","</span>).<span class="bu">str</span>.replace(<span class="st">","</span>, <span class="st">"/"</span>).<span class="bu">str</span>.split(<span class="st">"/"</span>)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>profissoes <span class="op">=</span> [j <span class="cf">for</span> i <span class="kw">in</span> profissoes <span class="cf">for</span> j <span class="kw">in</span> i]</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, profissao <span class="kw">in</span> <span class="bu">enumerate</span>(profissoes):</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>    palavra <span class="op">=</span> profissao.split()[<span class="dv">0</span>]</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> palavra <span class="op">==</span> <span class="st">"atriz"</span>:</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>        palavra <span class="op">=</span> <span class="st">"ator"</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> palavra[<span class="op">-</span><span class="dv">1</span>] <span class="kw">in</span> [<span class="st">'a'</span>, <span class="st">'o'</span>]:</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>        palavra <span class="op">=</span> palavra[<span class="dv">0</span>:<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>    profissoes[i] <span class="op">=</span> palavra</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>pd.Series(profissoes).value_counts().head(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="8">
 <pre><code>estudante        45
 model            41
@@ -522,28 +470,28 @@ influenciador     8
 dtype: int64</code></pre>
 </div>
 </div>
-<div class="cell" data-execution_count="78">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> neutralizar_genero(row):</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>    profissoes <span class="op">=</span> row.replace(<span class="st">"/"</span>, <span class="st">", "</span>).replace(<span class="st">" e "</span>, <span class="st">", "</span>).split(<span class="st">", "</span>)</span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    profissoes_resumidas <span class="op">=</span> []</span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, j <span class="kw">in</span> <span class="bu">enumerate</span>(profissoes):</span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>        profissao <span class="op">=</span> unidecode(j.split(<span class="st">" "</span>)[<span class="dv">0</span>]).lower()</span>
-<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (profissao[<span class="op">-</span><span class="dv">1</span>] <span class="kw">in</span> [<span class="st">"a"</span>, <span class="st">"o"</span>]):</span>
-<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>            profissao <span class="op">=</span> profissao[:<span class="op">-</span><span class="dv">1</span>]</span>
-<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> profissao <span class="op">==</span> <span class="st">"atriz"</span>:</span>
-<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>            profissao <span class="op">=</span> <span class="st">"ator"</span></span>
-<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>        profissoes_resumidas.append(profissao)</span>
-<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> profissoes_resumidas</span>
-<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>data_raw[<span class="st">'ocupacao_resumida'</span>] <span class="op">=</span> data_raw.<span class="bu">apply</span>(<span class="kw">lambda</span> row: neutralizar_genero(row[<span class="st">'ocupacao'</span>]), axis <span class="op">=</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-execution_count="35">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> neutralizar_genero(row):</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    profissoes <span class="op">=</span> row.replace(<span class="st">"/"</span>, <span class="st">", "</span>).replace(<span class="st">" e "</span>, <span class="st">", "</span>).split(<span class="st">", "</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    profissoes_resumidas <span class="op">=</span> []</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, j <span class="kw">in</span> <span class="bu">enumerate</span>(profissoes):</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>        profissao <span class="op">=</span> unidecode(j.split(<span class="st">" "</span>)[<span class="dv">0</span>]).lower()</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (profissao[<span class="op">-</span><span class="dv">1</span>] <span class="kw">in</span> [<span class="st">"a"</span>, <span class="st">"o"</span>]):</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>            profissao <span class="op">=</span> profissao[:<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> profissao <span class="op">==</span> <span class="st">"atriz"</span>:</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>            profissao <span class="op">=</span> <span class="st">"ator"</span></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>        profissoes_resumidas.append(profissao)</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> profissoes_resumidas</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>data_raw[<span class="st">'ocupacao_resumida'</span>] <span class="op">=</span> data_raw.<span class="bu">apply</span>(<span class="kw">lambda</span> row: neutralizar_genero(row[<span class="st">'ocupacao'</span>]), axis <span class="op">=</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution_count="80">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> sns.barplot(y <span class="op">=</span> data_raw[<span class="st">'ocupacao_resumida'</span>].explode().value_counts().index,</span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>            x <span class="op">=</span> data_raw[<span class="st">'ocupacao_resumida'</span>].explode().value_counts(),</span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>            order <span class="op">=</span> data_raw[<span class="st">'ocupacao_resumida'</span>].explode().value_counts().iloc[:<span class="dv">10</span>].index,</span>
-<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>            palette <span class="op">=</span> <span class="st">"Purples_r"</span>)</span>
-<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>p.bar_label(p.containers[<span class="dv">0</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> sns.barplot(y <span class="op">=</span> data_raw[<span class="st">'ocupacao_resumida'</span>].explode().value_counts().index,</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>            x <span class="op">=</span> data_raw[<span class="st">'ocupacao_resumida'</span>].explode().value_counts(),</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>            order <span class="op">=</span> data_raw[<span class="st">'ocupacao_resumida'</span>].explode().value_counts().iloc[:<span class="dv">10</span>].index,</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>            palette <span class="op">=</span> <span class="st">"Purples_r"</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>p.bar_label(p.containers[<span class="dv">0</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="80">
 <pre><code>[Text(0, 0, '45'),
  Text(0, 0, '41'),
@@ -557,7 +505,792 @@ dtype: int64</code></pre>
  Text(0, 0, '8')]</code></pre>
 </div>
 <div class="cell-output cell-output-display">
-<p><img src="main_files/figure-html/cell-13-output-2.png" class="img-fluid"></p>
+<p><img src="main_files/figure-html/cell-19-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="36">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>data_raw</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="36">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>nome</th>
+      <th>genero</th>
+      <th>data_nascimento</th>
+      <th>idade_participacao</th>
+      <th>ocupacao</th>
+      <th>municipio</th>
+      <th>estado</th>
+      <th>edicao</th>
+      <th>classificacao</th>
+      <th>signo</th>
+      <th>ocupacao_resumida</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Kleber de Paula Pedra (Bambam)</td>
+      <td>male</td>
+      <td>1978-02-14</td>
+      <td>24.0</td>
+      <td>Dançarino</td>
+      <td>Campinas</td>
+      <td>São Paulo</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Aquário</td>
+      <td>[dancarin]</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Vanessa Melanie Pascale Ekypenyong Walborn</td>
+      <td>female</td>
+      <td>1974-11-28</td>
+      <td>28.0</td>
+      <td>Modelo</td>
+      <td>Rio de Janeiro</td>
+      <td>Rio de Janeiro</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Sargitário</td>
+      <td>[model]</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>André Batista de Carvalho</td>
+      <td>male</td>
+      <td>1974-11-28</td>
+      <td>28.0</td>
+      <td>Professor de canto</td>
+      <td>Rio de Janeiro</td>
+      <td>Rio de Janeiro</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Sargitário</td>
+      <td>[professor]</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Antonio Sergio Tavares Campo</td>
+      <td>male</td>
+      <td>1972-12-06</td>
+      <td>30.0</td>
+      <td>Cabeleireiro</td>
+      <td>Angola</td>
+      <td>Exterior</td>
+      <td>1</td>
+      <td>4</td>
+      <td>Sargitário</td>
+      <td>[cabeleireir]</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Alessandra Begliomini</td>
+      <td>female</td>
+      <td>1974-12-05</td>
+      <td>28.0</td>
+      <td>Empresária</td>
+      <td>São Paulo</td>
+      <td>São Paulo</td>
+      <td>1</td>
+      <td>5</td>
+      <td>Sargitário</td>
+      <td>[empresari]</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>361</th>
+      <td>Bárbara Heck</td>
+      <td>female</td>
+      <td>1992-07-13</td>
+      <td>30.0</td>
+      <td>Relações públicas e modelo</td>
+      <td>Novo Hamburgo</td>
+      <td>Rio Grande do Sul</td>
+      <td>22</td>
+      <td>19</td>
+      <td>Cancer</td>
+      <td>[relacoes, model]</td>
+    </tr>
+    <tr>
+      <th>362</th>
+      <td>Vitória Nascimento Câmara (Maria)</td>
+      <td>female</td>
+      <td>2000-07-18</td>
+      <td>22.0</td>
+      <td>Atriz e cantora</td>
+      <td>Rio de Janeiro</td>
+      <td>Rio de Janeiro</td>
+      <td>22</td>
+      <td>99</td>
+      <td>Cancer</td>
+      <td>[ator, cantor]</td>
+    </tr>
+    <tr>
+      <th>363</th>
+      <td>Naiara de Fátima Azevedo</td>
+      <td>female</td>
+      <td>1989-10-30</td>
+      <td>33.0</td>
+      <td>Cantora</td>
+      <td>Campo Mourão</td>
+      <td>Paraná</td>
+      <td>22</td>
+      <td>20</td>
+      <td>Escorpião</td>
+      <td>[cantor]</td>
+    </tr>
+    <tr>
+      <th>364</th>
+      <td>Rodrigo Abrão de Carvalho Mussi Ivo</td>
+      <td>male</td>
+      <td>1985-09-20</td>
+      <td>37.0</td>
+      <td>Gerente comercial</td>
+      <td>São José dos Campos</td>
+      <td>São Paulo</td>
+      <td>22</td>
+      <td>21</td>
+      <td>Virgem</td>
+      <td>[gerente]</td>
+    </tr>
+    <tr>
+      <th>365</th>
+      <td>Luciano Estevan Neto da Conceição</td>
+      <td>male</td>
+      <td>1993-06-29</td>
+      <td>29.0</td>
+      <td>Ator e bailarino</td>
+      <td>Florianópolis</td>
+      <td>Santa Catarina</td>
+      <td>22</td>
+      <td>22</td>
+      <td>Cancer</td>
+      <td>[ator, bailarin]</td>
+    </tr>
+  </tbody>
+</table>
+<p>366 rows × 11 columns</p>
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="12">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>idade_media <span class="op">=</span> data_raw.query(<span class="st">"classificacao != 99"</span>).groupby(<span class="st">"idade_participacao"</span>).agg(</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    colocacao_media <span class="op">=</span> (<span class="st">"classificacao"</span>, <span class="st">'mean'</span>) </span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>).reset_index()</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(data <span class="op">=</span> idade_media, x <span class="op">=</span> <span class="st">"idade_participacao"</span>, y <span class="op">=</span> <span class="st">"colocacao_media"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="12">
+<pre><code>&lt;AxesSubplot: xlabel='idade_participacao', ylabel='colocacao_media'&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="main_files/figure-html/cell-21-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="37">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>data_raw.columns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="37">
+<pre><code>Index(['nome', 'genero', 'data_nascimento', 'idade_participacao', 'ocupacao',
+       'municipio', 'estado', 'edicao', 'classificacao', 'signo',
+       'ocupacao_resumida'],
+      dtype='object')</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="27">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>signo_final <span class="op">=</span> data_raw.query(<span class="st">"classificacao != 99"</span>).groupby(<span class="st">"signo"</span>).agg(</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    classificacao_media <span class="op">=</span> (<span class="st">"classificacao"</span>, <span class="st">"mean"</span>)</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>signo_final</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="27">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>classificacao_media</th>
+    </tr>
+    <tr>
+      <th>signo</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Aquário</th>
+      <td>9.206897</td>
+    </tr>
+    <tr>
+      <th>Cancer</th>
+      <td>8.444444</td>
+    </tr>
+    <tr>
+      <th>Capricórnio</th>
+      <td>9.538462</td>
+    </tr>
+    <tr>
+      <th>Escorpião</th>
+      <td>8.705882</td>
+    </tr>
+    <tr>
+      <th>Gêmeos</th>
+      <td>10.200000</td>
+    </tr>
+    <tr>
+      <th>Leão</th>
+      <td>8.846154</td>
+    </tr>
+    <tr>
+      <th>Libra</th>
+      <td>9.656250</td>
+    </tr>
+    <tr>
+      <th>Peixes</th>
+      <td>8.400000</td>
+    </tr>
+    <tr>
+      <th>Sargitário</th>
+      <td>8.800000</td>
+    </tr>
+    <tr>
+      <th>Touro</th>
+      <td>9.500000</td>
+    </tr>
+    <tr>
+      <th>Virgem</th>
+      <td>9.857143</td>
+    </tr>
+    <tr>
+      <th>Áries</th>
+      <td>9.875000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="43">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>data_raw[<span class="st">'ocupacao_resumida'</span>].explode()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="43">
+<pre><code>0         dancarin
+1            model
+2        professor
+3      cabeleireir
+4        empresari
+          ...     
+362         cantor
+363         cantor
+364        gerente
+365           ator
+365       bailarin
+Name: ocupacao_resumida, Length: 425, dtype: object</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="49">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>data_raw.query(<span class="st">"classificacao != 99"</span>).explode(<span class="st">"ocupacao_resumida"</span>).groupby(<span class="st">'ocupacao_resumida'</span>).agg(</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>    colocacao_media <span class="op">=</span> (<span class="st">"classificacao"</span>, <span class="st">"mean"</span>),</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>    count <span class="op">=</span> (<span class="st">"ocupacao_resumida"</span>, <span class="st">'count'</span>)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>).reset_index().query(<span class="st">"count &gt; 1"</span>).sort_values(<span class="st">"colocacao_media"</span>, ascending<span class="op">=</span> <span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="49">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>ocupacao_resumida</th>
+      <th>colocacao_media</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>79</th>
+      <td>maquiador</td>
+      <td>3.000000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>auxiliar</td>
+      <td>4.333333</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>assessor</td>
+      <td>4.500000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>administrador</td>
+      <td>5.200000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>advogad</td>
+      <td>6.000000</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>aeromoc</td>
+      <td>6.000000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>personal</td>
+      <td>6.666667</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>dancarin</td>
+      <td>6.800000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>professor</td>
+      <td>7.200000</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>produtor</td>
+      <td>7.200000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>medic</td>
+      <td>7.428571</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>lutador</td>
+      <td>7.500000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>escritor</td>
+      <td>8.000000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>analist</td>
+      <td>8.333333</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>ator</td>
+      <td>8.466667</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>arquitet</td>
+      <td>8.500000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>vendedor</td>
+      <td>8.500000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>promotor</td>
+      <td>8.875000</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>comerciante</td>
+      <td>9.000000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>estudante</td>
+      <td>9.069767</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>cozinheir</td>
+      <td>9.333333</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>youtuber</td>
+      <td>9.500000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>empresari</td>
+      <td>9.588235</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>cantor</td>
+      <td>9.600000</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>model</td>
+      <td>9.650000</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>artist</td>
+      <td>9.800000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>engenheir</td>
+      <td>9.833333</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>bacharel</td>
+      <td>10.000000</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>cabeleireir</td>
+      <td>10.000000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>ex-bbb</td>
+      <td>10.333333</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>jornalist</td>
+      <td>10.555556</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>designer</td>
+      <td>10.750000</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>publicitari</td>
+      <td>10.857143</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>music</td>
+      <td>11.166667</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>tradutor</td>
+      <td>11.500000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>dj</td>
+      <td>11.666667</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>influenciador</td>
+      <td>12.000000</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>futebolist</td>
+      <td>12.000000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>consultor</td>
+      <td>12.250000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>rapper</td>
+      <td>12.333333</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>gerente</td>
+      <td>12.500000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>psicolog</td>
+      <td>13.000000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>cientist</td>
+      <td>13.333333</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>surfist</td>
+      <td>13.500000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>tecnic</td>
+      <td>14.000000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>apresentador</td>
+      <td>14.666667</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>barman</td>
+      <td>15.000000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>bailarin</td>
+      <td>15.142857</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>cartomante</td>
+      <td>16.000000</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="53">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>data_raw.corr()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>C:\Users\Carlos\AppData\Local\Temp\ipykernel_15644\793374919.py:1: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  data_raw.corr()</code></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="53">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>idade_participacao</th>
+      <th>edicao</th>
+      <th>classificacao</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>idade_participacao</th>
+      <td>1.000000</td>
+      <td>0.191164</td>
+      <td>0.048936</td>
+    </tr>
+    <tr>
+      <th>edicao</th>
+      <td>0.191164</td>
+      <td>1.000000</td>
+      <td>0.062528</td>
+    </tr>
+    <tr>
+      <th>classificacao</th>
+      <td>0.048936</td>
+      <td>0.062528</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="67">
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> chi2_contingency</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>crosstab <span class="op">=</span> pd.crosstab(index <span class="op">=</span> data_raw[<span class="st">'genero'</span>], columns<span class="op">=</span>data_raw[<span class="st">'classificacao'</span>])</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>crosstab</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="67">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th>classificacao</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+      <th>10</th>
+      <th>...</th>
+      <th>14</th>
+      <th>15</th>
+      <th>16</th>
+      <th>17</th>
+      <th>18</th>
+      <th>19</th>
+      <th>20</th>
+      <th>21</th>
+      <th>22</th>
+      <th>99</th>
+    </tr>
+    <tr>
+      <th>genero</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>female</th>
+      <td>11</td>
+      <td>16</td>
+      <td>9</td>
+      <td>2</td>
+      <td>13</td>
+      <td>11</td>
+      <td>9</td>
+      <td>9</td>
+      <td>15</td>
+      <td>12</td>
+      <td>...</td>
+      <td>12</td>
+      <td>6</td>
+      <td>8</td>
+      <td>6</td>
+      <td>4</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>male</th>
+      <td>11</td>
+      <td>6</td>
+      <td>8</td>
+      <td>8</td>
+      <td>7</td>
+      <td>11</td>
+      <td>14</td>
+      <td>13</td>
+      <td>7</td>
+      <td>11</td>
+      <td>...</td>
+      <td>8</td>
+      <td>8</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>13</td>
+    </tr>
+  </tbody>
+</table>
+<p>2 rows × 23 columns</p>
+</div>
+</div>
+</div>
+<p>H0: as variaveis não são correlacionadas entre si</p>
+<div class="cell" data-execution_count="69">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>chisqresults <span class="op">=</span> chi2_contingency(crosstab)</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>chisqresults</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="69">
+<pre><code>Chi2ContingencyResult(statistic=36.985217907980065, pvalue=0.023744343204973112, dof=22, expected_freq=array([[11. , 11. ,  8.5,  5. , 10. , 11. , 11.5, 11. , 11. , 11.5, 11. ,
+        10.5, 10. , 10. ,  7. ,  6. ,  5.5,  4.5,  3. ,  2.5,  0.5,  0.5,
+        10.5],
+       [11. , 11. ,  8.5,  5. , 10. , 11. , 11.5, 11. , 11. , 11.5, 11. ,
+        10.5, 10. , 10. ,  7. ,  6. ,  5.5,  4.5,  3. ,  2.5,  0.5,  0.5,
+        10.5]]))</code></pre>
 </div>
 </div>
 </section>

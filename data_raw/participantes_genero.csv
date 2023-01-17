@@ -1,363 +1,367 @@
-nome;ocupacao;edicao;data_nascimento;municipio;pais;n_participantes;classificacao;genero
-Kleber de Paula Pedra (Bambam);Dançarino;1;14/02/1978;Campinas; São Paulo;12;1;male
-Vanessa Melanie Pascale Ekypenyong Walborn;Modelo;1;28/11/1974;Rio de Janeiro; Rio de Janeiro;12;2;female
-André Batista de Carvalho;Professor de canto;1;28/11/1974;Rio de Janeiro; Rio de Janeiro;12;3;male
-Antonio Sergio Tavares Campo;Cabeleireiro;1;06/12/1972;Angola;Exterior;12;4;male
-Alessandra Begliomini;Empresária;1;05/12/1974;São Paulo; São Paulo;12;5;female
-Estela Padilha;Videografista;1;27/09/1978;São Paulo; São Paulo;12;6;female
-Adriano Luiz Ramos de Castro;Artista plástico;1;23/10/1968;Salvador; Bahia;12;7;male
-Helena Louro;Atriz;1;21/06/1976;Maringá; Paraná;12;8;female
-Cristiana Carvalho Mota Machado;Cantora;1;07/12/1974;Rio de Janeiro; Rio de Janeiro;12;9;female
-Bruno Saladini Trautvetter;Modelo;1;10/03/1976;Rio de Janeiro; Rio de Janeiro;12;10;male
-Cristiane Souza Dantas (Xaiane);Barwoman;1;21/12/1975;Rio de Janeiro; Rio de Janeiro;12;11;female
-Caetano Zonaro;Modelo;1;20/06/1961;São Paulo; São Paulo;12;12;male
-Rodrigo Fraga Leonel;Domador de cavalos;2;04/04/1970;Ribeirão Preto; São Paulo;12;1;male
-Manuela Santos Saadeh;Estudante de marketing;2;31/05/1979;Rio de Janeiro; Rio de Janeiro;12;2;female
-Maria Aparecida Junqueira de Moraes (Cida);Aeromoça;2;30/10/1963;Rio de Janeiro; Rio de Janeiro;12;3;female
-Thyrso Mattos Martins;Cozinheiro;2;04/10/1975;São Paulo; São Paulo;12;4;male
-Tarciana de Lima Mafra;Vendedora;2;08/11/1974;Recife; Pernambuco;12;5;female
-Fabrício Luiz do Amaral;Estudante;2;16/05/1977;Novo Hamburgo; Rio Grande do Sul;12;6;unknown
-Thaís Ventura Pugliese;Estudante;2;08/03/1983;Niterói; Rio de Janeiro;12;7;female
-Moisés Joaquim da Silva;Vendedor;2;25/09/1975;Porto de Galinhas; Pernambuco;12;8;male
-Jeferson de Oliveira dos Santos;Cantor;2;21/10/1974;Carapicuíba; São Paulo;12;9;male
-Fernando Fernandes de Pádua;Boxeador e modelo;2;28/03/1981;São Paulo; São Paulo;12;10;male
-Vanessa Cristina Soares Dias (Tina);Futebolista e estudante de turismo;2;11/06/1980;São Paulo; São Paulo;12;11;female
-Rita Sinara Gonçalves da Silva Lopes;Cartomante;2;13/08/1972;Esteio; Rio Grande do Sul;12;12;female
-André Augusto Ferreira Fontes (Dhomini);Assessor parlamentar;3;27/09/1972;Goiânia; Goiás;15;1;male
-Elane Silva Chaves;Professora;3;24/08/1984;Itanhém; Bahia;15;2;female
-Viviane da Silva Oliveira;Advogada;3;11/02/1975;Votorantim; São Paulo;15;5;female
-Jean Massumi Hara;Massoterapeuta;3;16/09/1974;São Paulo; São Paulo;15;6;male
-Harry Grossman;Guia turístico;3;15/01/1968;Teresópolis; Rio de Janeiro;15;7;male
-Sabrina Sato Rahal;Estudante de Jornalismo;3;04/02/1981;Penápolis; São Paulo;15;8;female
-Emilio Fernando Amaral Rodrigues;Mergulhador;3;24/06/1972;Londrina; Paraná;15;9;male
-Alan Marcelo Cavalcante da Conceição;Basquetebolista;3;21/10/1976;Rio de Janeiro; Rio de Janeiro;15;10;male
-Juliana Alves de Oliveira;Estudante de Serviço Social;3;03/05/1982;Rio de Janeiro; Rio de Janeiro;15;11;female
-Andréa Carla Tapia Guerrero;Profissional de marketing;3;04/09/1964;São Paulo; São Paulo;15;12;female
-Marcelo Augusto Kretzer;DJ;3;05/04/1980;Blumenau; Santa Catarina;15;13;male
-Joseane Procasco Guntzell de Oliveira;Modelo;3;10/04/1981;Canoas; Rio Grande do Sul;15;14;female
-Dilson Walkarez Rodovalho Filho;Motoqueiro;3;18/05/1975;Campo Grande; Mato Grosso do Sul;15;99;male
-Paulo Roberto Nogueira Carotini;Fotógrafo;3;14/10/1969;São Paulo; São Paulo;15;99;male
-Samantha Barradas Pereira;Personal trainer;3;26/05/1975;Rio de Janeiro; Rio de Janeiro;15;99;female
-Gecilda da Silva dos Santos (Cida);Babá;4;26/02/1983;Mangaratiba; Rio de Janeiro;14;1;female
-Thiago Lira dos Santos;Auxiliar de contas;4;08/06/1982;São Gonçalo; Rio de Janeiro;14;2;male
-Juliana Lopes Leite;Promotora de eventos;4;09/07/1980;Brasília; Distrito Federal;14;3;female
-Solange Cristina Couto Maria;Frentista;4;18/06/1978;Mogi Guaçu; São Paulo;14;4;female
-Marcela de Mello Queiroz;Promotora de eventos;4;22/03/1978;Londrina; Paraná;14;5;female
-Rogério de Paulo Dragone;Coveiro;4;12/08/1978;São Paulo; São Paulo;14;6;male
-Marcelo Pereira Dourado;Lutador;4;29/04/1972;Porto Alegre; Rio Grande do Sul;14;7;male
-Marcelo dos Santos Martins Gomes (Zulu);Lutador;4;27/12/1980;Niterói; Rio de Janeiro;14;8;male
-Edílson Buba;Empresário;4;11/12/1971;Curitiba; Paraná;14;9;male
-Maria Gerislânia Leite de Sousa (Géris);Enfermeira;4;14/11/1973;Cajazeiras; Paraíba;14;10;female
-Antonela Avellaneda;Modelo;4;22/10/1982;La Plata; Buenos Aires;14;11;female
-Cristiano Giuseppe Carnevale;Gerente;4;03/05/1974;Rio de Janeiro; Rio de Janeiro;14;12;male
-Eduardo Monteiro Pinto Coelho;Publicitário;4;22/04/1979;Belo Horizonte; Minas Gerais;14;13;male
-Tatiana Milesi Giordano;Lutadora;4;01/04/1982;São Paulo; São Paulo;14;14;female
-Jean Wyllys de Mattos Santos;Professor;5;10/03/1974;Alagoinhas; Bahia;15;1;male
-Grazielli Massafera;Modelo;5;28/06/1982;Jacarezinho; Paraná;15;2;female
-Sammy Yukio Ueda;Comerciante;5;12/09/1978;Indaiatuba; São Paulo;15;3;male
-Alan Henrique Passos dos Santos;Engenheiro mecânico;5;24/05/1978;Belo Horizonte; Minas Gerais;15;5;male
-Tatiane Franklin do Nascimento Barbosa (Tatiane Pink);Cabeleireira;5;08/04/1980;Recife; Pernambuco;15;6;female
-Karla Patrícia Pereira Barbosa;Dançarina;5;06/07/1983;Recife; Pernambuco;15;7;female
-Aline Cristina Tertuliano dos Santos;Estudante;5;04/10/1985;Rio de Janeiro; Rio de Janeiro;15;8;female
-Tatiana Machado Souza;Promotora de eventos;5;28/03/1977;Rio de Janeiro; Rio de Janeiro;15;9;female
-Natália Nara de Oliveira Ramos;Modelo/VJ;5;24/09/1983;Fortaleza; Ceará;15;10;female
-Paulo André Mázio Costa;Consultor de informática;5;15/03/1981;Guarulhos; São Paulo;15;11;male
-Rogério Mata Padovan;Médico;5;05/09/1977;Ribeirão Preto; São Paulo;15;12;male
-Giulliano Ciarelli;Futebolista;5;07/03/1978;Campinas; São Paulo;15;13;male
-Antônio Marcos Maçaneiro;Padeiro;5;15/01/1979;Palhoça; Santa Catarina;15;14;male
-Marielza de Souza Dantas Santos;Dona de casa;5;19/07/1958;Duque de Caxias; Rio de Janeiro;15;99;female
-Juliana Souza Brandão;Estudante;5;18/08/1986;Prado; Bahia;15;15;female
-Maria Nilza Viana dos Santos (Mara);Auxiliar de enfermagem;6;12/05/1972;Porto Seguro; Bahia;14;1;female
-Mariana Silva Felício;Modelo;6;26/06/1985;Botucatu; São Paulo;14;2;female
-Rafael Valério Vieira Valente;Professor;6;27/10/1979;São José do Rio Preto; São Paulo;14;3;male
-Agustinho Fernandes Mendonça;Fiscal de atendimento;6;07/05/1970;Rio de Janeiro; Rio de Janeiro;14;4;male
-Cláudio Gustavo Aguiar Borges;Tradutor;6;17/05/1977;Belo Horizonte; Minas Gerais;14;5;male
-Iran Alves Gomes da Silva;Compositor;6;02/08/1976;Rio de Janeiro; Rio de Janeiro;14;6;male
-Carlos Renê Issa Castello;Advogado;6;01/12/1977;São Bernardo do Campo; São Paulo;14;7;male
-Inês Carolina Adão Gomes;Estudante de Fisioterapia;6;14/03/1984;Rio de Janeiro; Rio de Janeiro;14;8;female
-Thaís Guimarães Cavaleiro Macêdo;Psicóloga;6;19/11/1978;Belém; Pará;14;9;female
-Léa Alves Ferreira;Motogirl;6;21/07/1980;São Paulo; São Paulo;14;10;female
-Roberta Garcia Brasil;Bailarina;6;25/08/1983;Fortaleza; Ceará;14;11;female
-Daniel Figueredo Saullo;Modelo;6;30/05/1980;Passa Quatro; Minas Gerais;14;12;male
-Daniel Ract Costa (Dan);Consultor técnico;6;11/12/1980;São Paulo; São Paulo;14;13;male
-Juliana Soares Canabarro;Promotora de eventos;6;09/11/1982;Porto Alegre; Rio Grande do Sul;14;14;female
-Diego Bissolotti Gasques;Administrador de empresas;7;22/01/1981;São Bernardo do Campo; São Paulo;18;1;male
-Carollini Honório da Silva Dias;Estudante de Direito;7;29/10/1986;Rio de Janeiro; Rio de Janeiro;18;2;female
-Bruna Maria Sieves Tavares;Estudante de Administração;7;25/05/1984;Taió; Santa Catarina;18;5;female
-Analy Ofenbock Rosa;DJ e Hostess;7;01/06/1976;Curitiba; Paraná;18;6;female
-Airton da Silva Cabral;Designer;7;30/11/1981;Rio de Janeiro; Rio de Janeiro;18;7;male
-Alberto Pimentel Baptista;Analista financeiro;7;12/04/1976;Belo Horizonte; Minas Gerais;18;8;male
-Fani Miranda Pacheco;Promotora de marketing;7;24/05/1982;Nova Iguaçu; Rio de Janeiro;18;9;female
-Flávia Regina Viana;Promotora de eventos;7;18/01/1984;São Paulo; São Paulo;18;10;female
-Irislene Stefanelli (Íris);Estudante de Enfermagem;7;23/07/1979;Tupã; São Paulo;18;11;female
-Bruno Ferreira de Avelar Jácome;Consultor de vendas;7;09/09/1981;Timóteo; Minas Gerais;18;12;male
-Fernando Luiz Bacalow da Silva;Bancário;7;18/01/1983;Osasco; São Paulo;18;13;male
-Felipe Cobra;Skatista;7;26/02/1976;Rio de Janeiro; Rio de Janeiro;18;14;male
-Alan Pierre de Carvalho Miranda;Estudante de Administração;7;06/10/1985;Recife; Pernambuco;18;15;male
-Liane Fernanda de Souza Mendes;Estudante de Direito;7;30/01/1980;Florianópolis; Santa Catarina;18;16;female
-Daniel Ambrósio Bellangero;Técnico esportivo;7;30/04/1980;Barueri; São Paulo;18;17;male
-Juliana Lima de Regueiro;Tradutora;7;14/06/1977;Brasília; Distrito Federal;18;18;female
-Airton da Silva Cabral;Designer;7;30/11/1981;Rio de Janeiro; Rio de Janeiro;18;18;male
-Fernando Orozco Bitencourt de Oliveira;Engenheiro de Produção;7;;São Paulo; São Paulo;18;99;male
-Rafael Ribeiro Medeiros de Carvalho (Rafinha);Músico;8;23/09/1981;Campinas; São Paulo;14;1;male
-Gyselle Soares Estevão;Modelo;8;27/10/1983;Teresina; Piauí;14;2;female
-Natália Bohm Casassola;Estudante de Artes Visuais;8;08/07/1985;Passo Fundo; Rio Grande do Sul;14;3;female
-Marcos Paulo Parmagnani da Silva;Eletrotécnico;8;15/05/1981;Niterói; Rio de Janeiro;14;4;male
-Thatiana André Bione;Professora de inglês;8;17/06/1986;Brasília; Distrito Federal;14;5;female
-Marcelo de Oliveira Arantes;Médico psiquiatra;8;22/03/1976;Uberaba; Minas Gerais;14;6;male
-Juliana de Góes Carlos;Jornalista e modelo;8;25/06/1985;Santos; São Paulo;14;7;female
-Luiz Felipe Basílio Thimóteo de Oliveira;Estudante de Comércio Exterior;8;18/12/1986;São Paulo; São Paulo;14;8;male
-Luiz Fernando de Brito Mesquita;Gerente de contas;8;22/09/1982;Rio de Janeiro; Rio de Janeiro;14;9;male
-Bianca Maria Correia Jahara;Produtora de moda;8;12/10/1979;Rio de Janeiro; Rio de Janeiro;14;10;female
-Thalita Lippi Lopes;Atriz;8;30/01/1978;Rio de Janeiro; Rio de Janeiro;14;11;female
-Alexandre Torralbo Scaquette;Modelo;8;10/05/1983;Limeira; São Paulo;14;12;male
-Rafael Rocha Memória;Estudante de Medicina;8;20/01/1984;Fortaleza; Ceará;14;13;male
-Jaqueline Cury Cardoso;Modelo;8;06/04/1984;São Paulo; São Paulo;14;14;female
-Maximiliano de Oliveira Porto;Artista plástico;9;12/12/1978;Maricá; Rio de Janeiro;18;1;male
-Priscila Tavares Ferreira Pires dos Santos;Modelo e jornalista;9;31/07/1982;Campo Grande; Mato Grosso do Sul;18;2;female
-Francine Piaia Lemos;Professora;9;28/06/1983;Rio Grande; Rio Grande do Sul;18;3;female
-Ana Carolina Martins Madeira;Bacharel em Direito;9;10/02/1984;Florianópolis; Santa Catarina;18;5;female
-Flávio Steffli Júnior;Produtor de eventos;9;13/04/1983;Caxias do Sul; Rio Grande do Sul;18;6;male
-Josiane Belizário de Oliveira;Cantora;9;08/07/1978;Juiz de Fora; Minas Gerais;18;7;female
-Milena de Brito Fagundes;Assessora de imprensa;9;29/07/1976;Manaus; Amazonas;18;8;female
-Naiá da Graça Barros Giannocaro;Promotora de eventos;9;15/11/1947;São Paulo; São Paulo;18;9;female
-Maíra Cardi;Modelo e Apresentadora;9;05/09/1983;São Caetano do Sul; São Paulo;18;10;female
-Ralf Krause Reis Machado;Empresário;9;14/05/1976;São Paulo; São Paulo;18;11;male
-Mirla Araújo Prado;Advogada;9;01/12/1981;Belém; Pará;18;12;female
-André Luis Gusmão de Almeida;Cantor sertanejo;9;23/04/1974;São Bernardo do Campo; São Paulo;18;13;male
-Emanuel Tiago Milchevski;Estudante de Administração;9;07/07/1984;São Bento do Sul; Santa Catarina;18;14;male
-Newton da Silva Siqueira;Modelo e Empresário;9;24/09/1979;Porto Alegre; Rio Grande do Sul;18;15;male
-Alexandre Gomes da Silva;Administrador de empresas;9;13/10/1973;Olinda; Pernambuco;18;16;male
-Leonardo Jancu;Estudante de Administração;9;10/05/1983;São Paulo; São Paulo;18;99;male
-Norberto Carias dos Santos;Radialista e Ator;9;30/03/1945;São Carlos; São Paulo;18;17;male
-Michelle Julianne Fernandes da Costa;Estudante de Direito e Modelo;9;20/07/1984;Recife; Pernambuco;18;18;female
-Marcelo Pereira Dourado Big Brother Brasil 4;Lutador;10;29/04/1972;Porto Alegre; Rio Grande do Sul;17;1;male
-Fernanda Helena Cardoso;Dentista;10;04/12/1981;São José dos Campos; São Paulo;17;2;female
-Carlos Eduardo de Nascimento Parga (Cadu);Personal trainer;10;04/04/1985;Rio de Janeiro; Rio de Janeiro;17;3;male
-Eliane Kheireddine (Lia);Dançarina;10;15/01/1981;São Paulo; São Paulo;17;4;female
-Dicesar Ferreira dos Santos;Maquiador e Drag queen;10;02/01/1966;Sertanópolis; Paraná;17;5;male
-Anamara Cristiane de Brito Barreira;Policial militar;10;13/07/1984;Juazeiro; Bahia;17;6;female
-Sérgio Luis de Ramos Franceschini;Estudante de Moda;10;25/02/1989;São Paulo; São Paulo;17;7;male
-Michel Turtchin;Publicitário;10;13/03/1979;São Paulo; São Paulo;17;8;male
-Eliéser José Ambrósio;Engenheiro agrônomo e modelo;10;12/05/1984;Maringá; Paraná;17;9;male
-Cláudia Livia Colucci;Empresária;10;28/12/1981;Ribeirão Preto; São Paulo;17;10;female
-Ana Angélica Martins Marques;Jornalista;10;01/03/1985;Uberlândia; Minas Gerais;17;11;female
-Elenita Gonçalves Rodrigues;Professora de linguagens e doutora em linguística;10;01/03/1979;Brasília; Distrito Federal;17;12;female
-Uilliam Cardoso Carvalho;Dançarino;10;01/02/1986;Firmino Alves; Bahia;17;13;male
-Alex Fernandes Vilanova;Advogado;10;08/11/1973;Suzano; São Paulo;17;14;male
-Tessália Serighelli de Castro;Publicitária;10;11/04/1987;Curitiba; Paraná;17;15;female
-Ana Marcela Santos Pereira Alves;Estudante de direito;10;21/09/1984;Recife; Pernambuco;17;16;female
-Joseane Procasco Guntzell de Oliveira Big Brother Brasil 3;Modelo e apresentadora;10;10/04/1981;Canoas; Rio Grande do Sul;17;17;female
-Maria Helena Jurado Melillo;Atriz e modelo;11;22/11/1983;São Bernardo do Campo; São Paulo;20;1;female
-Wesley Schunk Cunha;Médico;11;01/02/1986;Vila Velha; Espírito Santo;20;2;male
-Daniel Barbosa Rolim;Administrador;11;09/09/1970;Recife; Pernambuco;20;3;male
-Diana Reis Balsini;Produtora;11;20/09/1981;Rio de Janeiro; Rio de Janeiro;20;6;female
-Rodrigo Gomes Simoni (Rodrigão);Modelo;11;26/07/1988;Maringá; Paraná;20;7;male
-Paula Cristina de Souza Leite;Estudante de farmácia;11;14/01/1987;Boa Vista; Roraima;20;8;female
-Jaqueline Faria Louriçal;Dançarina e modelo;11;21/10/1983;Rio de Janeiro; Rio de Janeiro;20;9;female
-Luiz Maurício Bento Joaquim;Músico;11;14/04/1983;Rio de Janeiro; Rio de Janeiro;20;10;male
-Talula Pascoli;Modelo;11;28/07/1981;São Paulo; São Paulo;20;11;female
-Janaína dos Santos;Bailarina;11;03/03/1985;São Paulo; São Paulo;20;99;female
-Diogo Preto;Coreógrafo;11;21/10/1986;Salvador; Bahia;20;99;male
-Adriana Ribeiro Sant'anna;Estudante de odontologia e modelo;11;06/02/1991;Campos dos Goytacazes; Rio de Janeiro;20;13;female
-Natália Cristina Pinto de Castro;Analista criminal;11;21/09/1983;Coronel Fabriciano; Minas Gerais;20;14;female
-Lucival Nascimento França;Jornalista;11;06/02/1981;Salvador; Bahia;20;15;male
-Cristiano Zanelato Amado Naya;Engenheiro mecatrônico;11;24/03/1977;São Paulo; São Paulo;20;16;male
-Igor Gramani Serra;Barman e rapper;11;30/11/1985;São Paulo; São Paulo;20;17;male
-Michelly Cristina de Freitas Pereira;Promotora de eventos;11;14/08/1983;São Paulo; São Paulo;20;99;female
-Rodrigo da Silva Carvalho;Administrador;11;29/01/1984;Jaboatão dos Guararapes; Pernambuco;20;99;male
-Luiz Maurício Bento Joaquim;Músico;11;14/04/1983;Rio de Janeiro; Rio de Janeiro;20;19;male
-Ariadna Thalia da Silva Arantes;Cabeleireira;11;03/06/1984;Rio de Janeiro; Rio de Janeiro;20;20;female
-Rafael Alves Cordeiro (Fael);Médico veterinário;12;23/11/1986;Aral Moreira; Mato Grosso do Sul;16;1;male
-Fabiana Aparecida Teixeira da Silva;Garota-propaganda;12;26/01/1976;Ribeirão Preto; São Paulo;16;2;female
-Jonas Fernando Sulzbach;Modelo;12;07/02/1986;Lajeado; Rio Grande do Sul;16;4;male
-Kelly Medeiros dos Santos;Assistente comercial;12;28/12/1983;Almenara; Minas Gerais;16;5;female
-João Carvalho;Representante comercial;12;15/04/1965;Divinópolis; Minas Gerais;16;6;male
-Monique Amim Popper;Estudante de Administração;12;17/05/1988;Florianópolis; Santa Catarina;16;7;female
-Yuri Fernandes Magalhães de Almeida;Professor de Muay thai;12;31/10/1985;Goiânia; Goiás;16;8;male
-Renata Dávila Hurtado;Estudante de Psicologia;12;05/02/1990;Belo Horizonte; Minas Gerais;16;9;female
-Rafael Leandro de Oliveira (Rafa);Projetista de iluminação;12;02/08/1976;Rio de Janeiro; Rio de Janeiro;16;10;male
-Laisa de Moraes Portela;Estudante de Medicina;12;26/12/1988;Espumoso; Rio Grande do Sul;16;11;female
-João Mauricio Dantas Leite;Pecuarista;12;13/11/1977;Goiânia; Goiás;16;12;male
-Ronaldo Peres Marques Pinheiro;Vendedor;12;24/04/1980;Jacareí; São Paulo;16;13;male
-Mayara Medeiros Miussi;Arte educadora;12;22/08/1988;Jales; São Paulo;16;14;female
-Jakeline Leal Lucena;Estudante de Zootecnia;12;30/07/1989;Feira de Santana; Bahia;16;15;female
-Analice Mateus de Souza;Dona de bar;12;18/06/1985;Belo Horizonte; Minas Gerais;16;16;female
-Daniel Gustavo Rodriguez Echaniz;Modelo;12;27/11/1980;São Paulo; São Paulo;16;99;male
-Fernanda Keulla Vilaça;Advogada;13;22/05/1986;Belo Horizonte; Minas Gerais;17;1;female
-Nasser Bernardes Rodrigues;Vendedor;13;25/11/1988;Porto Alegre; Rio Grande do Sul;17;2;male
-Andressa Ganacin;Esteticista;13;09/08/1989;Cianorte; Paraná;17;3;female
-Natália Bohm Casassola Big Brother Brasil 8;Ex-BBB;13;08/07/1985;Passo Fundo; Rio Grande do Sul;17;5;female
-André Borges Martinelli;Empresário;13;05/04/1988;Vitória; Espírito Santo;17;6;male
-Fani Miranda Pacheco Big Brother Brasil 7;Ex-BBB;13;24/05/1982;Nova Iguaçu; Rio de Janeiro;17;7;female
-Kamilla Ghabrise Rodrigues Salgado;Modelo;13;31/03/1987;Belém; Pará;17;8;female
-Anamara Cristiane de Brito Barreira Big Brother Brasil 10;Ex-BBB;13;13/07/1984;Juazeiro; Bahia;17;9;female
-Marcello Soares;Personal trainer;13;08/10/1981;Rio de Janeiro; Rio de Janeiro;17;10;male
-Eliéser José Ambrósio Big Brother Brasil 10;Ex-BBB;13;12/05/1984;Maringá; Paraná;17;11;male
-Ivan Marcondes Antônio;Professor de inglês;13;26/01/1986;Rio Claro; São Paulo;17;12;male
-Marien dos Reis y Carretero;Bailarina de Flamenco;13;06/12/1987;Belo Horizonte; Minas Gerais;17;13;female
-Yuri Fernandes Magalhães de Almeida Big Brother Brasil 12;Ex-BBB;13;31/10/1985;Goiânia; Goiás;17;14;male
-Aslan Cabral;Artista plástico;13;12/01/1980;Recife; Pernambuco;17;15;male
-André Augusto Ferreira Fontes (Dhomini) Big Brother Brasil 3;Ex-BBB;13;27/09/1972;Goiânia; Goiás;17;16;male
-Aline Santos Mattos;Recepcionista;13;08/12/1981;Rio de Janeiro; Rio de Janeiro;17;17;female
-Kleber de Paula Pedra (Bambam) Big Brother Brasil 1;Ex-BBB;13;14/02/1978;Campinas; São Paulo;17;99;male
-Vanessa André Mesquita;Modelo;14;01/04/1986;São Paulo; São Paulo;20;1;female
-Angela de Moraes Munhoz;Advogada;14;16/11/1987;São Roque; São Paulo;20;2;female
-Clara Aguilar;Modelo;14;14/03/1988;São Paulo; São Paulo;20;3;female
-Marcelo Karam Zagonel;Administrador;14;18/03/1987;Curitiba; Paraná;20;4;male
-Valter Araújo de Souza;Rapper;14;12/09/1978;São Paulo; São Paulo;20;5;male
-Tatiele Polyana Dolemba da Silva;Modelo;14;10/09/1991;Cianorte; Paraná;20;6;female
-Cássio Lannes Carvalho;Estudante de Publicidade;14;19/11/1991;Alvorada; Rio Grande do Sul;20;7;male
-Diego Cerqueira Lopes Grossi;Publicitário;14;30/10/1982;Brasília; Distrito Federal;20;8;male
-Aline Moraes Dahlen Gantz;Atriz;14;14/06/1981;Porto Alegre; Rio Grande do Sul;20;9;female
-Franciele Primo de Almeida;Produtora de eventos;14;27/12/1989;Santa Rosa; Rio Grande do Sul;20;10;female
-Ronildo Mazon de Oliveira (Roni);Modelo;14;26/07/1986;Iacri; São Paulo;20;11;male
-Letícia Miranda Santiago;Bacharel em Direito;14;30/10/1986;Belo Horizonte; Minas Gerais;20;12;female
-Salvador Gianetti Junior;Supervisor de vendas;14;25/03/1986;São Paulo; São Paulo;20;13;male
-Amanda Gontijo Soares;Estudante de Engenharia Civil;14;22/10/1990;Divinópolis; Minas Gerais;20;14;female
-Vagner Lara;Empresário;14;04/11/1976;São Paulo; São Paulo;20;15;male
-Isabella Maia Pereira (Bella);Bailarina;14;24/09/1986;Recife; Pernambuco;20;16;female
-Princy Cavalcante;Corretora de imóveis;14;30/04/1981;Goiânia; Goiás;20;17;female
-Rodrigo Rafael Araújo de Lima;Cozinheiro;14;12/05/1985;Recife; Pernambuco;20;18;male
-Alisson Gomes Guimarães;Professor;14;27/12/1986;Contagem; Minas Gerais;20;19;female
-João Alexandre Gonçalves de Almeida;Cartomante;14;19/06/1982;Rio de Janeiro; Rio de Janeiro;20;20;male
-Cézar de Lima Martins;Estudante de Direito;15;07/11/1984;Guarapuava; Paraná;14;1;male
-Amanda Djehdian;Empresária;15;14/05/1986;São Paulo; São Paulo;14;2;female
-Fernando Carlos de Medeiros;Produtor cultural;15;17/04/1982;Rio de Janeiro; Rio de Janeiro;14;4;male
-Adrilles Reis Jorge;Escritor;15;16/11/1974;Campos Gerais; Minas Gerais;14;5;unknown
-Mariza Maria Moreira;Professora de Artes;15;15/01/1964;Recife; Pernambuco;14;6;female
-Rafael Selbach Licks;Estudante de Administração;15;26/04/1993;Canela; Rio Grande do Sul;14;7;male
-Luan Patricio dos Santos Rosa;Gerente de salão de beleza;15;30/01/1991;Mesquita; Rio de Janeiro;14;8;male
-Tamires Peloso Peixoto;Dentista;15;31/07/1990;São Paulo; São Paulo;14;99;female
-Talita de Araújo Carvalho;Aeromoça;15;25/03/1992;Goiânia; Goiás;14;9;female
-Angélica Cristina Ramos de Castro;Auxiliar de enfermagem;15;18/08/1981;Embu das Artes; São Paulo;14;10;female
-Aline Gotschalg;Estudante de Moda;15;09/10/1990;Belo Horizonte; Minas Gerais;14;11;female
-Marco Antônio Marcon;Teólogo;15;08/01/1980;Curitiba; Paraná;14;12;male
-Douglas Ferreira;Motoboy;15;17/11/1985;São Paulo; São Paulo;14;13;male
-Francieli Berwanger Medeiros;Conciliadora criminal;15;12/07/1978;Bento Gonçalves; Rio Grande do Sul;14;14;female
-Munik Nunes Barbosa;Estudante;16;05/07/1996;Goiânia; Goiás;14;1;female
-Maria Claudia Macedo Gomes;YouTuber;16;07/08/1996;Santa Cruz; Rio Grande do Norte;14;2;female
-Ronan de Oliveira Veiga;Estudante de Filosofia;16;18/05/1988;Curitiba; Paraná;14;5;male
-Geralda Nascimento Diniz;Professora aposentada;16;18/11/1952;Curvelo; Minas Gerais;14;6;female
-Matheus Carneiro Lisboa;Engenheiro eletricista;16;11/08/1990;Barra Longa; Minas Gerais;14;7;male
-Renan Oliveira de Almeida;Modelo;16;22/05/1986;Amparo; São Paulo;14;8;male
-Adélia de Jesus Soares;Advogada;16;26/12/1979;Suzano; São Paulo;14;9;female
-Ana Paula Machado Renault;Jornalista;16;22/11/1981;Belo Horizonte; Minas Gerais;14;99;female
-Tamiel Khan Baiocchi Jacobson;Professor de Ecologia;16;16/01/1975;Goiânia; Goiás;14;10;female
-Juliana Dias;Bailarina;16;02/01/1985;São Paulo; São Paulo;14;11;female
-Daniel Manzieri Heder;Empresário;16;13/08/1977;Rio de Janeiro; Rio de Janeiro;14;12;male
-Alan Marinho Lopes;Doutor em Filosofia;16;25/09/1981;Natal; Rio Grande do Norte;14;99;male
-Laércio de Moura;Designer de tatuagem;16;01/09/1962;Curitiba; Paraná;14;13;male
-Rosaly Harumi Ishihara;Jornalista;16;02/12/1951;São Paulo; São Paulo;14;14;female
-Emilly de Araújo Corrêa;Estudante;17;24/07/1996;Eldorado do Sul; Rio Grande do Sul;15;1;female
-Vivian Silveira Amorim;Advogada;17;20/03/1993;Manaus; Amazonas;15;2;female
-Ieda Maria Wobeto;Aposentada;17;26/04/1946;Canoas; Rio Grande do Sul;15;3;female
-Marcos de Oliveira Härter;Cirurgião plástico;17;21/03/1979;Porto Alegre; Rio Grande do Sul;15;99;male
-Marinalva de Almeida;Paratleta;17;27/08/1977;Santa Isabel do Ivaí; Paraná;15;5;female
-Ilmar Renato Granja Fonseca;Advogado e cozinheiro;17;10/01/1979;Santo Anastácio; São Paulo;15;6;male
-Daniel Fabiano Fontes;Agente de trânsito;17;01/06/1975;Ferraz de Vasconcelos; São Paulo;15;7;male
-Rômulo Milhomem Freitas Figueira Neves;Diplomata;17;31/10/1977;Brasília; Distrito Federal;15;8;male
-Roberta Freitas Diniz;Estudante de Serviço Social;17;20/09/1995;São Paulo; São Paulo;15;9;female
-Pedro Inzinna Falcão;Jornalista;17;09/02/1987;São Paulo; São Paulo;15;10;male
-Elis Nair da Penha Gonçalves;Comerciante;17;06/05/1976;Brasília; Distrito Federal;15;11;female
-Manoel Augusto Pereira Rafaski;Promotor de eventos;17;21/10/1993;Vitória; Espírito Santo;15;12;male
-Luiz Felipe Barbosa Ribeiro;Comerciante;17;15/07/1988;Maceió; Alagoas;15;13;male
-Mayara Motti Rodrigues;Bacharel em Direito;17;07/11/1990;Belo Horizonte; Minas Gerais;15;14;female
-Gabriela Flor Bitencourt Lucídio Ferreira;Bailarina;17;18/08/1989;Salvador; Bahia;15;15;female
-Gleiciane Damasceno da Silva (Gleici);Estudante de Psicologia;18;26/02/1995;Rio Branco; Acre;18;1;female
-Kaysar Dadour;Garçom;18;09/07/1989;Alepo; Alepo;18;2;male
-Ana Clara Mello Lima;Estudante de Jornalismo;18;11/04/1997;Rio de Janeiro; Rio de Janeiro;18;3;female
-Ayrton dos Santos Lima;Analista de Sistemas;18;17/12/1961;Rio de Janeiro; Rio de Janeiro;18;3;male
-Paula Carolina de Amorim Barbosa;Empresária;18;07/01/1989;Belo Horizonte; Minas Gerais;18;5;female
-Breno Siqueira Simões;Arquiteto;18;10/04/1988;Goiânia; Goiás;18;6;male
-Jéssica Mueller;Personal trainer;18;23/03/1991;Blumenau; Santa Catarina;18;7;female
-Marcos Aurelio Viegas de Carvalho;Músico;18;22/10/1984;São Paulo; São Paulo;18;8;male
-Wagner Santiago Ribeiro;Artista visual;18;24/09/1982;Curitiba; Paraná;18;9;male
-Marcos Antonio Caruso Junior;Publicitário;18;03/02/1983;São Paulo; São Paulo;18;10;male
-Diego Gessualdo Sabádo de Souza;Escritor;18;26/11/1986;Belém; Pará;18;11;male
-Patrícia Camila Leite Lima;Funcionária pública;18;16/11/1985;Icó; Ceará;18;12;female
-Mahamoud Baydoun (Mahmoud);Sexólogo;18;29/03/1990;Manaus; Amazonas;18;13;male
-Lucas Eleutério Fernandes;Empresário;18;02/05/1990;Fortaleza; Ceará;18;14;male
-Nayara Helena de Deus Alves;Jornalista;18;25/07/1984;Santo André; São Paulo;18;15;female
-Ana Paula Costa Agustinho;Estudante de Jornalismo;18;19/11/1994;São José; Santa Catarina;18;16;female
-Jaqueline Grohalski Brito;Biomédica;18;14/06/1994;Rolim de Moura; Rondônia;18;17;female
-Helcimara de Souza Telles (Mara);Cientista política;18;11/04/1964;Governador Valadares; Minas Gerais;18;18;female
-Paula von Sperling Viana;Bacharel em direito;19;17/11/1990;Lagoa Santa; Minas Gerais;17;1;female
-Alan Possamai Barbosa;Administrador e empresário;19;01/08/1992;Criciúma; Santa Catarina;17;2;male
-Carolina Peixinho Sodré;Publicitária e empresária;19;12/04/1985;Salvador; Bahia;17;5;female
-Hariany Nathalia Mesquita de Almeida;Estudante de design de moda;19;22/09/1997;Senador Canedo; Goiás;17;99;female
-Rízia de Cerqueira Apolinario;Jornalista;19;23/01/1994;São Miguel dos Campos; Alagoas;17;6;female
-Gabriela Cano Hebling;Designer gráfica e percussionista;19;17/03/1986;Ribeirão Preto; São Paulo;17;7;female
-Rodrigo Ferreira França;Cientista social especializado em direitos humanos e dramaturgo;19;28/01/1978;Rio de Janeiro; Rio de Janeiro;17;8;male
-Elana Valenária Fernandes da Silva;Engenheira agrônoma;19;15/12/1993;Bom Jesus; Piauí;17;9;female
-Danrley Ferreira da Silva;Estudante de biologia e vendedor de picolé;19;19/01/1999;Rio de Janeiro; Rio de Janeiro;17;10;male
-Terezinha Ferreira de Souza Freitas (Tereza);Psicanalista e técnica de enfermagem;19;28/01/1966;Arcoverde; Pernambuco;17;11;female
-Isabella Chiara Nelson Cecchi;Estudante de medicina;19;31/03/1994;Natal; Rio Grande do Norte;17;12;female
-Maycon Santos Oliveira;Barman e vendedor de queijos;19;06/06/1991;Piumhi; Minas Gerais;17;13;male
-Diego Henrique Wantowsky;Empresário e criador de cavalos;19;13/11/1988;Rio Negrinho; Santa Catarina;17;14;male
-Hana Khalil Carvalho Cavalcanti de Albuquerque;Bacharel em Cinema e YouTuber;19;18/03/1996;Rio de Janeiro; Rio de Janeiro;17;15;female
-Gustavo de Léo Soares;Médico oftalmologista;19;03/02/1981;São Paulo; São Paulo;17;16;male
-Vanderson Gomes de Brito;Biólogo e coordenador educacional indígena;19;15/07/1983;Rio Branco; Acre;17;99;male
-Vinicius Póvoa Fernandes;Artista plástico e publicitário;19;28/01/1978;Belo Horizonte; Minas Gerais;17;17;male
-Thelma Regina Maria dos Santos Assis;Médica anestesiologista;20;18/11/1984;São Paulo; São Paulo;20;1;female
-Rafaella Freitas Ferreira de Castro (Rafa Kalimann);Influenciadora digital;20;02/04/1993;Campina Verde; Minas Gerais;20;2;female
-Manoela Latini Gavassi Francisco (Manu Gavassi);Atriz e cantora;20;04/01/1993;São Paulo; São Paulo;20;3;female
-Alexandre da Silva Santana (Babu Santana);Ator;20;10/12/1979;Rio de Janeiro; Rio de Janeiro;20;4;male
-Mariana Decânio Gonzalez (Mari Gonzalez);Influenciadora digital;20;16/02/1994;Salvador; Bahia;20;5;female
-Ivy Moraes Barbosa;Modelo;20;25/04/1992;Belo Horizonte; Minas Gerais;20;6;female
-Gizelly Bicalho Abreu;Advogada criminalista;20;16/10/1991;Iúna; Espírito Santo;20;7;female
-Flayslane Raiane Pereira da Silva;Cantora;20;19/10/1994;Nova Floresta; Paraíba;20;8;unknown
-Marcela Olmedo McGowan;Ginecologista e obstetra;20;25/11/1988;Rancharia; São Paulo;20;9;female
-Gabriela Piedade Martins (Gabi Martins);Cantora;20;12/12/1996;Belo Horizonte; Minas Gerais;20;10;female
-Felipe Antoniazzi Prior;Arquiteto;20;18/06/1992;São Paulo; São Paulo;20;11;male
-Daniel Xavier Lenhardt;Modelo e ator;20;29/04/1997;Selbach; Rio Grande do Sul;20;12;male
-Jaime Young-Lae Cho (Pyong Lee);Hipnólogo e youtuber;20;23/09/1992;São Paulo; São Paulo;20;13;male
-Victor Hugo Silva Teixeira;Psicólogo e cientista de saúde pública;20;14/02/1994;Imperatriz; Maranhão;20;14;male
-Guilherme Napolitano Camargo Mariotto Pieroni;Modelo e jornalista;20;08/03/1991;Presidente Prudente; São Paulo;20;15;male
-Bianca Andrade da Silva (Boca Rosa);Empresária e influenciadora digital;20;15/10/1994;Rio de Janeiro; Rio de Janeiro;20;16;female
-Lucas Becker Gallina;Fisioterapeuta;20;10/04/1993;Florianópolis; Santa Catarina;20;17;male
-Hadson da Silva Nery;Ex-jogador de futebol;20;04/08/1981;Belém; Pará;20;18;male
-Petrix Stevan Aguiar Barbosa;Ginasta;20;05/03/1992;São Paulo; São Paulo;20;19;male
-Lucas Yan Cabral Azeredo Chianca (Lucas Chumbo);Surfista profissional;20;25/08/1995;Saquarema; Rio de Janeiro;20;20;male
-Juliette Freire Feitosa;Advogada e maquiadora;21;03/12/1989;Campina Grande; Paraíba;20;1;female
-Camilla Jesus Santos de Lucas;Influenciadora digital;21;13/10/1994;Nova Iguaçu; Rio de Janeiro;20;2;female
-Filipe Kartalian Ayrosa Galvão (Fiuk);Ator e cantor;21;25/10/1990;São Paulo; São Paulo;20;3;male
-Gilberto José Nogueira Junior;Doutorando em economia;21;14/07/1991;Jaboatão dos Guararapes; Pernambuco;20;5;male
-Viviane de Queiroz Pereira (Pocah);Cantora;21;17/10/1994;Queimados; Rio de Janeiro;20;6;female
-Arthur Louzada Picoli;Instrutor de crossfit;21;21/06/1994;Cachoeiro de Itapemirim; Espírito Santo;20;7;male
-Vitória de Felice Moraes (Viih Tube);Atriz e youtuber;21;18/08/2000;Sorocaba; São Paulo;20;8;female
-João Luiz Pedrosa da Silva;Professor de geografia;21;09/10/1996;Santos Dumont; Minas Gerais;20;9;male
-Caio Farah Afiune;Fazendeiro;21;06/01/1989;Anápolis; Goiás;20;10;male
-Thaís Faria Braz;Cirurgiã-dentista;21;25/01/1993;Luziânia; Goiás;20;11;female
-Rodolffo Matthaus da Silva Rios;Cantor;21;24/08/1988;Uruaçu; Goiás;20;12;male
-Sarah Carolline Vieira de Andrade;Consultora de marketing digital;21;22/06/1991;Brasília; Distrito Federal;20;13;female
-Carla Carolina Moreira Diaz;Atriz;21;28/11/1990;São Paulo; São Paulo;20;14;female
-José Tiago Sabino Pereira (Projota);Cantor e rapper;21;11/04/1986;São Paulo; São Paulo;20;15;male
-Lumena de Aleluia Santos;Psicóloga e DJ;21;18/04/1991;Salvador; Bahia;20;16;female
-Karoline dos Santos de Oliveira (Karol Conká);Apresentadora e cantora;21;01/01/1986;Curitiba; Paraná;20;17;female
-Dilson Alves da Silva Neto (Nego Di);Comediante;21;01/06/1994;Porto Alegre; Rio Grande do Sul;20;18;male
-Arcrebiano de Araújo Silva;Educador físico e modelo;21;13/12/1991;Vila Velha; Espírito Santo;20;19;unknown
-Lucas Prata Penteado;Ator;21;23/11/1996;São Paulo; São Paulo;20;99;male
-Kerline Farias Cardoso Leite;Influenciadora digital e modelo;21;23/04/1992;Fortaleza; Ceará;20;20;female
-Arthur Queiroga Bandeira de Aguiar;Ator e cantor;22;03/03/1989;Rio de Janeiro; Rio de Janeiro;22;1;male
-Paulo André Camilo de Oliveira;Atleta olímpico;22;20/08/1998;Santo André; São Paulo;22;2;male
-Douglas Silva;Ator;22;27/09/1988;Rio de Janeiro; Rio de Janeiro;22;3;male
-Eliezer do Carmo Neto;Designer e empresário;22;23/01/1990;Volta Redonda; Rio de Janeiro;22;6;male
-Pedro Henrique Mota Vianna (Pedro Scooby);Surfista profissional;22;10/08/1988;Rio de Janeiro; Rio de Janeiro;22;7;male
-Gustavo Batista Marsengo;Bacharel em direito;22;13/07/1990;Curitiba; Paraná;22;8;male
-Jessilane Alves de Souza;Bióloga e professora de biologia;22;28/11/1995;Bom Jesus da Lapa; Bahia;22;9;female
-Natália Rocha de Oliveira Deodato;Modelo e designer de unhas;22;12/01/2000;Belo Horizonte; Minas Gerais;22;10;female
-Lina Pereira dos Santos (Linn da Quebrada);Cantora e atriz;22;18/07/1990;São Paulo; São Paulo;22;11;female
-Eslovênia Marques de Lima;Estudante de marketing e modelo;22;17/11/1996;João Pessoa; Paraíba;22;12;unknown
-Lucas Bissoli Garcia;Engenheiro e estudante de medicina;22;07/05/1990;Vila Velha; Espírito Santo;22;13;male
-Laís Rodrigues Caldas;Médica;22;18/11/1991;Crixás; Goiás;22;14;female
-Marcus Vinicius Fernandes de Sousa;Bacharel em direito;22;27/01/1998;Crato; Ceará;22;15;male
-Jade Picon Froes;Empresária e influenciadora digital;22;24/09/2001;São Paulo; São Paulo;22;16;female
-Larissa Tomásia Arruda;Influenciadora digital e coordenadora de marketing;22;16/06/1996;Limoeiro; Pernambuco;22;17;female
-Tiago Donato Abravanel Corte Gomes;Ator e apresentador;22;21/10/1987;São Paulo; São Paulo;22;99;male
-Bruna Gonçalves Coelho Oliveira (Brunna Gonçalves);Bailarina e influenciadora digital;22;16/12/1991;Nilópolis; Rio de Janeiro;22;18;female
-Bárbara Heck;Relações públicas e modelo;22;13/07/1992;Novo Hamburgo; Rio Grande do Sul;22;19;female
-Vitória Nascimento Câmara (Maria);Atriz e cantora;22;18/07/2000;Rio de Janeiro; Rio de Janeiro;22;99;female
-Naiara de Fátima Azevedo;Cantora;22;30/10/1989;Campo Mourão; Paraná;22;20;female
-Rodrigo Abrão de Carvalho Mussi Ivo;Gerente comercial;22;20/09/1985;São José dos Campos; São Paulo;22;21;male
-Luciano Estevan Neto da Conceição;Ator e bailarino;22;29/06/1993;Florianópolis; Santa Catarina;22;22;male
+nome;ocupacao;edicao;data_nascimento;municipio;estado;n_participantes;classificacao;genero
+Kleber de Paula Pedra (Bambam);Dançarino;1;1978-02-14;Campinas; São Paulo;12;1;male
+Vanessa Melanie Pascale Ekypenyong Walborn;Modelo;1;1974-11-28;Rio de Janeiro; Rio de Janeiro;12;2;female
+André Batista de Carvalho;Professor de canto;1;1974-11-28;Rio de Janeiro; Rio de Janeiro;12;3;male
+Antonio Sergio Tavares Campo;Cabeleireiro;1;1972-12-06;Angola;Exterior;12;4;male
+Alessandra Begliomini;Empresária;1;1974-12-05;São Paulo; São Paulo;12;5;female
+Estela Padilha;Videografista;1;1978-09-27;São Paulo; São Paulo;12;6;female
+Adriano Luiz Ramos de Castro;Artista plástico;1;1968-10-23;Salvador; Bahia;12;7;male
+Helena Louro;Atriz;1;1976-06-21;Maringá; Paraná;12;8;female
+Cristiana Carvalho Mota Machado;Cantora;1;1974-12-07;Rio de Janeiro; Rio de Janeiro;12;9;female
+Bruno Saladini Trautvetter;Modelo;1;1976-03-10;Rio de Janeiro; Rio de Janeiro;12;10;male
+Cristiane Souza Dantas (Xaiane);Barwoman;1;1975-12-21;Rio de Janeiro; Rio de Janeiro;12;11;female
+Caetano Zonaro;Modelo;1;1961-06-20;São Paulo; São Paulo;12;12;male
+Rodrigo Fraga Leonel;Domador de cavalos;2;1970-04-04;Ribeirão Preto; São Paulo;12;1;male
+Manuela Santos Saadeh;Estudante de marketing;2;1979-05-31;Rio de Janeiro; Rio de Janeiro;12;2;female
+Maria Aparecida Junqueira de Moraes (Cida);Aeromoça;2;1963-10-30;Rio de Janeiro; Rio de Janeiro;12;3;female
+Thyrso Mattos Martins;Cozinheiro;2;1975-10-04;São Paulo; São Paulo;12;4;male
+Tarciana de Lima Mafra;Vendedora;2;1974-11-08;Recife; Pernambuco;12;5;female
+Fabrício Luiz do Amaral;Estudante;2;1977-05-16;Novo Hamburgo; Rio Grande do Sul;12;6;male
+Thaís Ventura Pugliese;Estudante;2;1983-03-08;Niterói; Rio de Janeiro;12;7;female
+Moisés Joaquim da Silva;Vendedor;2;1975-09-25;Porto de Galinhas; Pernambuco;12;8;male
+Jeferson de Oliveira dos Santos;Cantor;2;1974-10-21;Carapicuíba; São Paulo;12;9;male
+Fernando Fernandes de Pádua;Boxeador e modelo;2;1981-03-28;São Paulo; São Paulo;12;10;male
+Vanessa Cristina Soares Dias (Tina);Futebolista e estudante de turismo;2;1980-06-11;São Paulo; São Paulo;12;11;female
+Rita Sinara Gonçalves da Silva Lopes;Cartomante;2;1972-08-13;Esteio; Rio Grande do Sul;12;12;female
+André Augusto Ferreira Fontes (Dhomini);Assessor parlamentar;3;1972-09-27;Goiânia; Goiás;15;1;male
+Elane Silva Chaves;Professora;3;1984-08-24;Itanhém; Bahia;15;2;female
+Viviane da Silva Oliveira;Advogada;3;1975-02-11;Votorantim; São Paulo;15;5;female
+Jean Massumi Hara;Massoterapeuta;3;1974-09-16;São Paulo; São Paulo;15;6;male
+Harry Grossman;Guia turístico;3;1968-01-15;Teresópolis; Rio de Janeiro;15;7;male
+Sabrina Sato Rahal;Estudante de Jornalismo;3;1981-02-04;Penápolis; São Paulo;15;8;female
+Emilio Fernando Amaral Rodrigues;Mergulhador;3;1972-06-24;Londrina; Paraná;15;9;male
+Alan Marcelo Cavalcante da Conceição;Basquetebolista;3;1976-10-21;Rio de Janeiro; Rio de Janeiro;15;10;male
+Juliana Alves de Oliveira;Estudante de Serviço Social;3;1982-05-03;Rio de Janeiro; Rio de Janeiro;15;11;female
+Andréa Carla Tapia Guerrero;Profissional de marketing;3;1964-09-04;São Paulo; São Paulo;15;12;female
+Marcelo Augusto Kretzer;DJ;3;1980-04-05;Blumenau; Santa Catarina;15;13;male
+Joseane Procasco Guntzell de Oliveira;Modelo;3;1981-04-10;Canoas; Rio Grande do Sul;15;14;female
+Dilson Walkarez Rodovalho Filho;Motoqueiro;3;1975-05-18;Campo Grande; Mato Grosso do Sul;15;;male
+Paulo Roberto Nogueira Carotini;Fotógrafo;3;1969-10-14;São Paulo; São Paulo;15;;male
+Samantha Barradas Pereira;Personal trainer;3;1975-05-26;Rio de Janeiro; Rio de Janeiro;15;;female
+Gecilda da Silva dos Santos (Cida);Babá;4;1983-02-26;Mangaratiba; Rio de Janeiro;14;1;female
+Thiago Lira dos Santos;Auxiliar de contas;4;1982-06-08;São Gonçalo; Rio de Janeiro;14;2;male
+Juliana Lopes Leite;Promotora de eventos;4;1980-07-09;Brasília; Distrito Federal;14;3;female
+Solange Cristina Couto Maria;Frentista;4;1978-06-18;Mogi Guaçu; São Paulo;14;4;female
+Marcela de Mello Queiroz;Promotora de eventos;4;1978-03-22;Londrina; Paraná;14;5;female
+Rogério de Paulo Dragone;Coveiro;4;1978-08-12;São Paulo; São Paulo;14;6;male
+Marcelo Pereira Dourado;Lutador;4;1972-04-29;Porto Alegre; Rio Grande do Sul;14;7;male
+Marcelo dos Santos Martins Gomes (Zulu);Lutador;4;1980-12-27;Niterói; Rio de Janeiro;14;8;male
+Edílson Buba;Empresário;4;1971-12-11;Curitiba; Paraná;14;9;male
+Maria Gerislânia Leite de Sousa (Géris);Enfermeira;4;1973-11-14;Cajazeiras; Paraíba;14;10;female
+Antonela Avellaneda;Modelo;4;1982-10-22;La Plata; Buenos Aires;14;11;female
+Cristiano Giuseppe Carnevale;Gerente;4;1974-05-03;Rio de Janeiro; Rio de Janeiro;14;12;male
+Eduardo Monteiro Pinto Coelho;Publicitário;4;1979-04-22;Belo Horizonte; Minas Gerais;14;13;male
+Tatiana Milesi Giordano;Lutadora;4;1982-04-01;São Paulo; São Paulo;14;14;female
+Jean Wyllys de Mattos Santos;Professor;5;1974-03-10;Alagoinhas; Bahia;15;1;male
+Grazielli Massafera;Modelo;5;1982-06-28;Jacarezinho; Paraná;15;2;female
+Sammy Yukio Ueda;Comerciante;5;1978-09-12;Indaiatuba; São Paulo;15;3;male
+Alan Henrique Passos dos Santos;Engenheiro mecânico;5;1978-05-24;Belo Horizonte; Minas Gerais;15;5;male
+Tatiane Franklin do Nascimento Barbosa (Tatiane Pink);Cabeleireira;5;1980-04-08;Recife; Pernambuco;15;6;female
+Karla Patrícia Pereira Barbosa;Dançarina;5;1983-07-06;Recife; Pernambuco;15;7;female
+Aline Cristina Tertuliano dos Santos;Estudante;5;1985-10-04;Rio de Janeiro; Rio de Janeiro;15;8;female
+Tatiana Machado Souza;Promotora de eventos;5;1977-03-28;Rio de Janeiro; Rio de Janeiro;15;9;female
+Natália Nara de Oliveira Ramos;Modelo/VJ;5;1983-09-24;Fortaleza; Ceará;15;10;female
+Paulo André Mázio Costa;Consultor de informática;5;1981-03-15;Guarulhos; São Paulo;15;11;male
+Rogério Mata Padovan;Médico;5;1977-09-05;Ribeirão Preto; São Paulo;15;12;male
+Giulliano Ciarelli;Futebolista;5;1978-03-07;Campinas; São Paulo;15;13;male
+Antônio Marcos Maçaneiro;Padeiro;5;1979-01-15;Palhoça; Santa Catarina;15;14;male
+Marielza de Souza Dantas Santos;Dona de casa;5;1958-07-19;Duque de Caxias; Rio de Janeiro;15;;female
+Juliana Souza Brandão;Estudante;5;1986-08-18;Prado; Bahia;15;15;female
+Maria Nilza Viana dos Santos (Mara);Auxiliar de enfermagem;6;1972-05-12;Porto Seguro; Bahia;14;1;female
+Mariana Silva Felício;Modelo;6;1985-06-26;Botucatu; São Paulo;14;2;female
+Rafael Valério Vieira Valente;Professor;6;1979-10-27;São José do Rio Preto; São Paulo;14;3;male
+Agustinho Fernandes Mendonça;Fiscal de atendimento;6;1970-05-07;Rio de Janeiro; Rio de Janeiro;14;4;male
+Cláudio Gustavo Aguiar Borges;Tradutor;6;1977-05-17;Belo Horizonte; Minas Gerais;14;5;male
+Iran Alves Gomes da Silva;Compositor;6;1976-08-02;Rio de Janeiro; Rio de Janeiro;14;6;male
+Carlos Renê Issa Castello;Advogado;6;1977-12-01;São Bernardo do Campo; São Paulo;14;7;male
+Inês Carolina Adão Gomes;Estudante de Fisioterapia;6;1984-03-14;Rio de Janeiro; Rio de Janeiro;14;8;female
+Thaís Guimarães Cavaleiro Macêdo;Psicóloga;6;1978-11-19;Belém; Pará;14;9;female
+Léa Alves Ferreira;Motogirl;6;1980-07-21;São Paulo; São Paulo;14;10;female
+Roberta Garcia Brasil;Bailarina;6;1983-08-25;Fortaleza; Ceará;14;11;female
+Daniel Figueredo Saullo;Modelo;6;1980-05-30;Passa Quatro; Minas Gerais;14;12;male
+Daniel Ract Costa (Dan);Consultor técnico;6;1980-12-11;São Paulo; São Paulo;14;13;male
+Juliana Soares Canabarro;Promotora de eventos;6;1982-11-09;Porto Alegre; Rio Grande do Sul;14;14;female
+Diego Bissolotti Gasques;Administrador de empresas;7;1981-01-22;São Bernardo do Campo; São Paulo;18;1;male
+Carollini Honório da Silva Dias;Estudante de Direito;7;1986-10-29;Rio de Janeiro; Rio de Janeiro;18;2;female
+Bruna Maria Sieves Tavares;Estudante de Administração;7;1984-05-25;Taió; Santa Catarina;18;5;female
+Analy Ofenbock Rosa;DJ e Hostess;7;1976-06-01;Curitiba; Paraná;18;6;female
+Airton da Silva Cabral;Designer;7;1981-11-30;Rio de Janeiro; Rio de Janeiro;18;7;male
+Airton da Silva Cabral;Designer;7;1981-11-30;Rio de Janeiro; Rio de Janeiro;18;7;male
+Alberto Pimentel Baptista;Analista financeiro;7;1976-04-12;Belo Horizonte; Minas Gerais;18;8;male
+Fani Miranda Pacheco;Promotora de marketing;7;1982-05-24;Nova Iguaçu; Rio de Janeiro;18;9;female
+Flávia Regina Viana;Promotora de eventos;7;1984-01-18;São Paulo; São Paulo;18;10;female
+Irislene Stefanelli (Íris);Estudante de Enfermagem;7;1979-07-23;Tupã; São Paulo;18;11;female
+Bruno Ferreira de Avelar Jácome;Consultor de vendas;7;1981-09-09;Timóteo; Minas Gerais;18;12;male
+Fernando Luiz Bacalow da Silva;Bancário;7;1983-01-18;Osasco; São Paulo;18;13;male
+Felipe Cobra;Skatista;7;1976-02-26;Rio de Janeiro; Rio de Janeiro;18;14;male
+Alan Pierre de Carvalho Miranda;Estudante de Administração;7;1985-10-06;Recife; Pernambuco;18;15;male
+Liane Fernanda de Souza Mendes;Estudante de Direito;7;1980-01-30;Florianópolis; Santa Catarina;18;16;female
+Daniel Ambrósio Bellangero;Técnico esportivo;7;1980-04-30;Barueri; São Paulo;18;17;male
+Juliana Lima de Regueiro;Tradutora;7;1977-06-14;Brasília; Distrito Federal;18;18;female
+Airton da Silva Cabral;Designer;7;1981-11-30;Rio de Janeiro; Rio de Janeiro;18;18;male
+Airton da Silva Cabral;Designer;7;1981-11-30;Rio de Janeiro; Rio de Janeiro;18;18;male
+Fernando Orozco Bitencourt de Oliveira;Engenheiro de Produção;7;;São Paulo; São Paulo;18;;male
+Rafael Ribeiro Medeiros de Carvalho (Rafinha);Músico;8;1981-09-23;Campinas; São Paulo;14;1;male
+Gyselle Soares Estevão;Modelo;8;1983-10-27;Teresina; Piauí;14;2;female
+Natália Bohm Casassola;Estudante de Artes Visuais;8;1985-07-08;Passo Fundo; Rio Grande do Sul;14;3;female
+Marcos Paulo Parmagnani da Silva;Eletrotécnico;8;1981-05-15;Niterói; Rio de Janeiro;14;4;male
+Thatiana André Bione;Professora de inglês;8;1986-06-17;Brasília; Distrito Federal;14;5;female
+Marcelo de Oliveira Arantes;Médico psiquiatra;8;1976-03-22;Uberaba; Minas Gerais;14;6;male
+Juliana de Góes Carlos;Jornalista e modelo;8;1985-06-25;Santos; São Paulo;14;7;female
+Luiz Felipe Basílio Thimóteo de Oliveira;Estudante de Comércio Exterior;8;1986-12-18;São Paulo; São Paulo;14;8;male
+Luiz Fernando de Brito Mesquita;Gerente de contas;8;1982-09-22;Rio de Janeiro; Rio de Janeiro;14;9;male
+Bianca Maria Correia Jahara;Produtora de moda;8;1979-10-12;Rio de Janeiro; Rio de Janeiro;14;10;female
+Thalita Lippi Lopes;Atriz;8;1978-01-30;Rio de Janeiro; Rio de Janeiro;14;11;female
+Alexandre Torralbo Scaquette;Modelo;8;1983-05-10;Limeira; São Paulo;14;12;male
+Rafael Rocha Memória;Estudante de Medicina;8;1984-01-20;Fortaleza; Ceará;14;13;male
+Jaqueline Cury Cardoso;Modelo;8;1984-04-06;São Paulo; São Paulo;14;14;female
+Maximiliano de Oliveira Porto;Artista plástico;9;1978-12-12;Maricá; Rio de Janeiro;18;1;male
+Priscila Tavares Ferreira Pires dos Santos;Modelo e jornalista;9;1982-07-31;Campo Grande; Mato Grosso do Sul;18;2;female
+Francine Piaia Lemos;Professora;9;1983-06-28;Rio Grande; Rio Grande do Sul;18;3;female
+Ana Carolina Martins Madeira;Bacharel em Direito;9;1984-02-10;Florianópolis; Santa Catarina;18;5;female
+Flávio Steffli Júnior;Produtor de eventos;9;1983-04-13;Caxias do Sul; Rio Grande do Sul;18;6;male
+Josiane Belizário de Oliveira;Cantora;9;1978-07-08;Juiz de Fora; Minas Gerais;18;7;female
+Milena de Brito Fagundes;Assessora de imprensa;9;1976-07-29;Manaus; Amazonas;18;8;female
+Naiá da Graça Barros Giannocaro;Promotora de eventos;9;1947-11-15;São Paulo; São Paulo;18;9;female
+Maíra Cardi;Modelo e Apresentadora;9;1983-09-05;São Caetano do Sul; São Paulo;18;10;female
+Ralf Krause Reis Machado;Empresário;9;1976-05-14;São Paulo; São Paulo;18;11;male
+Mirla Araújo Prado;Advogada;9;1981-12-01;Belém; Pará;18;12;female
+André Luis Gusmão de Almeida;Cantor sertanejo;9;1974-04-23;São Bernardo do Campo; São Paulo;18;13;male
+Emanuel Tiago Milchevski;Estudante de Administração;9;1984-07-07;São Bento do Sul; Santa Catarina;18;14;male
+Newton da Silva Siqueira;Modelo e Empresário;9;1979-09-24;Porto Alegre; Rio Grande do Sul;18;15;male
+Alexandre Gomes da Silva;Administrador de empresas;9;1973-10-13;Olinda; Pernambuco;18;16;male
+Leonardo Jancu;Estudante de Administração;9;1983-05-10;São Paulo; São Paulo;18;;male
+Norberto Carias dos Santos;Radialista e Ator;9;1945-03-30;São Carlos; São Paulo;18;17;male
+Michelle Julianne Fernandes da Costa;Estudante de Direito e Modelo;9;1984-07-20;Recife; Pernambuco;18;18;female
+Marcelo Pereira Dourado Big Brother Brasil 4;Lutador;10;1972-04-29;Porto Alegre; Rio Grande do Sul;17;1;male
+Fernanda Helena Cardoso;Dentista;10;1981-12-04;São José dos Campos; São Paulo;17;2;female
+Carlos Eduardo de Nascimento Parga (Cadu);Personal trainer;10;1985-04-04;Rio de Janeiro; Rio de Janeiro;17;3;male
+Eliane Kheireddine (Lia);Dançarina;10;1981-01-15;São Paulo; São Paulo;17;4;female
+Dicesar Ferreira dos Santos;Maquiador e Drag queen;10;1966-01-02;Sertanópolis; Paraná;17;5;male
+Anamara Cristiane de Brito Barreira;Policial militar;10;1984-07-13;Juazeiro; Bahia;17;6;female
+Sérgio Luis de Ramos Franceschini;Estudante de Moda;10;1989-02-25;São Paulo; São Paulo;17;7;male
+Michel Turtchin;Publicitário;10;1979-03-13;São Paulo; São Paulo;17;8;male
+Eliéser José Ambrósio;Engenheiro agrônomo e modelo;10;1984-05-12;Maringá; Paraná;17;9;male
+Cláudia Livia Colucci;Empresária;10;1981-12-28;Ribeirão Preto; São Paulo;17;10;female
+Ana Angélica Martins Marques;Jornalista;10;1985-03-01;Uberlândia; Minas Gerais;17;11;female
+Elenita Gonçalves Rodrigues;Professora de linguagens e doutora em linguística;10;1979-03-01;Brasília; Distrito Federal;17;12;female
+Uilliam Cardoso Carvalho;Dançarino;10;1986-02-01;Firmino Alves; Bahia;17;13;male
+Alex Fernandes Vilanova;Advogado;10;1973-11-08;Suzano; São Paulo;17;14;male
+Tessália Serighelli de Castro;Publicitária;10;1987-04-11;Curitiba; Paraná;17;15;female
+Ana Marcela Santos Pereira Alves;Estudante de direito;10;1984-09-21;Recife; Pernambuco;17;16;female
+Joseane Procasco Guntzell de Oliveira Big Brother Brasil 3;Modelo e apresentadora;10;1981-04-10;Canoas; Rio Grande do Sul;17;17;female
+Maria Helena Jurado Melillo;Atriz e modelo;11;1983-11-22;São Bernardo do Campo; São Paulo;20;1;female
+Wesley Schunk Cunha;Médico;11;1986-02-01;Vila Velha; Espírito Santo;20;2;male
+Daniel Barbosa Rolim;Administrador;11;1970-09-09;Recife; Pernambuco;20;3;male
+Diana Reis Balsini;Produtora;11;1981-09-20;Rio de Janeiro; Rio de Janeiro;20;6;female
+Rodrigo Gomes Simoni (Rodrigão);Modelo;11;1988-07-26;Maringá; Paraná;20;7;male
+Paula Cristina de Souza Leite;Estudante de farmácia;11;1987-01-14;Boa Vista; Roraima;20;8;female
+Jaqueline Faria Louriçal;Dançarina e modelo;11;1983-10-21;Rio de Janeiro; Rio de Janeiro;20;9;female
+Luiz Maurício Bento Joaquim;Músico;11;1983-04-14;Rio de Janeiro; Rio de Janeiro;20;10;male
+Luiz Maurício Bento Joaquim;Músico;11;1983-04-14;Rio de Janeiro; Rio de Janeiro;20;10;male
+Talula Pascoli;Modelo;11;1981-07-28;São Paulo; São Paulo;20;11;female
+Janaína dos Santos;Bailarina;11;1985-03-03;São Paulo; São Paulo;20;;female
+Diogo Preto;Coreógrafo;11;1986-10-21;Salvador; Bahia;20;;male
+Adriana Ribeiro Sant'anna;Estudante de odontologia e modelo;11;1991-02-06;Campos dos Goytacazes; Rio de Janeiro;20;13;female
+Natália Cristina Pinto de Castro;Analista criminal;11;1983-09-21;Coronel Fabriciano; Minas Gerais;20;14;female
+Lucival Nascimento França;Jornalista;11;1981-02-06;Salvador; Bahia;20;15;male
+Cristiano Zanelato Amado Naya;Engenheiro mecatrônico;11;1977-03-24;São Paulo; São Paulo;20;16;male
+Igor Gramani Serra;Barman e rapper;11;1985-11-30;São Paulo; São Paulo;20;17;male
+Michelly Cristina de Freitas Pereira;Promotora de eventos;11;1983-08-14;São Paulo; São Paulo;20;;female
+Rodrigo da Silva Carvalho;Administrador;11;1984-01-29;Jaboatão dos Guararapes; Pernambuco;20;;male
+Luiz Maurício Bento Joaquim;Músico;11;1983-04-14;Rio de Janeiro; Rio de Janeiro;20;19;male
+Luiz Maurício Bento Joaquim;Músico;11;1983-04-14;Rio de Janeiro; Rio de Janeiro;20;19;male
+Ariadna Thalia da Silva Arantes;Cabeleireira;11;1984-06-03;Rio de Janeiro; Rio de Janeiro;20;20;female
+Rafael Alves Cordeiro (Fael);Médico veterinário;12;1986-11-23;Aral Moreira; Mato Grosso do Sul;16;1;male
+Fabiana Aparecida Teixeira da Silva;Garota-propaganda;12;1976-01-26;Ribeirão Preto; São Paulo;16;2;female
+Jonas Fernando Sulzbach;Modelo;12;1986-02-07;Lajeado; Rio Grande do Sul;16;4;male
+Kelly Medeiros dos Santos;Assistente comercial;12;1983-12-28;Almenara; Minas Gerais;16;5;female
+João Carvalho;Representante comercial;12;1965-04-15;Divinópolis; Minas Gerais;16;6;male
+Monique Amim Popper;Estudante de Administração;12;1988-05-17;Florianópolis; Santa Catarina;16;7;female
+Yuri Fernandes Magalhães de Almeida;Professor de Muay thai;12;1985-10-31;Goiânia; Goiás;16;8;male
+Renata Dávila Hurtado;Estudante de Psicologia;12;1990-02-05;Belo Horizonte; Minas Gerais;16;9;female
+Rafael Leandro de Oliveira (Rafa);Projetista de iluminação;12;1976-08-02;Rio de Janeiro; Rio de Janeiro;16;10;male
+Laisa de Moraes Portela;Estudante de Medicina;12;1988-12-26;Espumoso; Rio Grande do Sul;16;11;female
+João Mauricio Dantas Leite;Pecuarista;12;1977-11-13;Goiânia; Goiás;16;12;male
+Ronaldo Peres Marques Pinheiro;Vendedor;12;1980-04-24;Jacareí; São Paulo;16;13;male
+Mayara Medeiros Miussi;Arte educadora;12;1988-08-22;Jales; São Paulo;16;14;female
+Jakeline Leal Lucena;Estudante de Zootecnia;12;1989-07-30;Feira de Santana; Bahia;16;15;female
+Analice Mateus de Souza;Dona de bar;12;1985-06-18;Belo Horizonte; Minas Gerais;16;16;female
+Daniel Gustavo Rodriguez Echaniz;Modelo;12;1980-11-27;São Paulo; São Paulo;16;;male
+Fernanda Keulla Vilaça;Advogada;13;1986-05-22;Belo Horizonte; Minas Gerais;17;1;female
+Nasser Bernardes Rodrigues;Vendedor;13;1988-11-25;Porto Alegre; Rio Grande do Sul;17;2;male
+Andressa Ganacin;Esteticista;13;1989-08-09;Cianorte; Paraná;17;3;female
+Natália Bohm Casassola Big Brother Brasil 8;Ex-BBB;13;1985-07-08;Passo Fundo; Rio Grande do Sul;17;5;female
+André Borges Martinelli;Empresário;13;1988-04-05;Vitória; Espírito Santo;17;6;male
+Fani Miranda Pacheco Big Brother Brasil 7;Ex-BBB;13;1982-05-24;Nova Iguaçu; Rio de Janeiro;17;7;female
+Kamilla Ghabrise Rodrigues Salgado;Modelo;13;1987-03-31;Belém; Pará;17;8;female
+Anamara Cristiane de Brito Barreira Big Brother Brasil 10;Ex-BBB;13;1984-07-13;Juazeiro; Bahia;17;9;female
+Marcello Soares;Personal trainer;13;1981-10-08;Rio de Janeiro; Rio de Janeiro;17;10;male
+Eliéser José Ambrósio Big Brother Brasil 10;Ex-BBB;13;1984-05-12;Maringá; Paraná;17;11;male
+Ivan Marcondes Antônio;Professor de inglês;13;1986-01-26;Rio Claro; São Paulo;17;12;male
+Marien dos Reis y Carretero;Bailarina de Flamenco;13;1987-12-06;Belo Horizonte; Minas Gerais;17;13;female
+Yuri Fernandes Magalhães de Almeida Big Brother Brasil 12;Ex-BBB;13;1985-10-31;Goiânia; Goiás;17;14;male
+Aslan Cabral;Artista plástico;13;1980-01-12;Recife; Pernambuco;17;15;male
+André Augusto Ferreira Fontes (Dhomini) Big Brother Brasil 3;Ex-BBB;13;1972-09-27;Goiânia; Goiás;17;16;male
+Aline Santos Mattos;Recepcionista;13;1981-12-08;Rio de Janeiro; Rio de Janeiro;17;17;female
+Kleber de Paula Pedra (Bambam) Big Brother Brasil 1;Ex-BBB;13;1978-02-14;Campinas; São Paulo;17;;male
+Vanessa André Mesquita;Modelo;14;1986-04-01;São Paulo; São Paulo;20;1;female
+Angela de Moraes Munhoz;Advogada;14;1987-11-16;São Roque; São Paulo;20;2;female
+Clara Aguilar;Modelo;14;1988-03-14;São Paulo; São Paulo;20;3;female
+Marcelo Karam Zagonel;Administrador;14;1987-03-18;Curitiba; Paraná;20;4;male
+Valter Araújo de Souza;Rapper;14;1978-09-12;São Paulo; São Paulo;20;5;male
+Tatiele Polyana Dolemba da Silva;Modelo;14;1991-09-10;Cianorte; Paraná;20;6;female
+Cássio Lannes Carvalho;Estudante de Publicidade;14;1991-11-19;Alvorada; Rio Grande do Sul;20;7;male
+Diego Cerqueira Lopes Grossi;Publicitário;14;1982-10-30;Brasília; Distrito Federal;20;8;male
+Aline Moraes Dahlen Gantz;Atriz;14;1981-06-14;Porto Alegre; Rio Grande do Sul;20;9;female
+Franciele Primo de Almeida;Produtora de eventos;14;1989-12-27;Santa Rosa; Rio Grande do Sul;20;10;female
+Ronildo Mazon de Oliveira (Roni);Modelo;14;1986-07-26;Iacri; São Paulo;20;11;male
+Letícia Miranda Santiago;Bacharel em Direito;14;1986-10-30;Belo Horizonte; Minas Gerais;20;12;female
+Salvador Gianetti Junior;Supervisor de vendas;14;1986-03-25;São Paulo; São Paulo;20;13;male
+Amanda Gontijo Soares;Estudante de Engenharia Civil;14;1990-10-22;Divinópolis; Minas Gerais;20;14;female
+Vagner Lara;Empresário;14;1976-11-04;São Paulo; São Paulo;20;15;male
+Isabella Maia Pereira (Bella);Bailarina;14;1986-09-24;Recife; Pernambuco;20;16;female
+Princy Cavalcante;Corretora de imóveis;14;1981-04-30;Goiânia; Goiás;20;17;female
+Rodrigo Rafael Araújo de Lima;Cozinheiro;14;1985-05-12;Recife; Pernambuco;20;18;male
+Alisson Gomes Guimarães;Professor;14;1986-12-27;Contagem; Minas Gerais;20;19;female
+João Alexandre Gonçalves de Almeida;Cartomante;14;1982-06-19;Rio de Janeiro; Rio de Janeiro;20;20;male
+Cézar de Lima Martins;Estudante de Direito;15;1984-11-07;Guarapuava; Paraná;14;1;male
+Amanda Djehdian;Empresária;15;1986-05-14;São Paulo; São Paulo;14;2;female
+Fernando Carlos de Medeiros;Produtor cultural;15;1982-04-17;Rio de Janeiro; Rio de Janeiro;14;4;male
+Adrilles Reis Jorge;Escritor;15;1974-11-16;Campos Gerais; Minas Gerais;14;5;male
+Mariza Maria Moreira;Professora de Artes;15;1964-01-15;Recife; Pernambuco;14;6;female
+Rafael Selbach Licks;Estudante de Administração;15;1993-04-26;Canela; Rio Grande do Sul;14;7;male
+Luan Patricio dos Santos Rosa;Gerente de salão de beleza;15;1991-01-30;Mesquita; Rio de Janeiro;14;8;male
+Tamires Peloso Peixoto;Dentista;15;1990-07-31;São Paulo; São Paulo;14;;female
+Talita de Araújo Carvalho;Aeromoça;15;1992-03-25;Goiânia; Goiás;14;9;female
+Angélica Cristina Ramos de Castro;Auxiliar de enfermagem;15;1981-08-18;Embu das Artes; São Paulo;14;10;female
+Aline Gotschalg;Estudante de Moda;15;1990-10-09;Belo Horizonte; Minas Gerais;14;11;female
+Marco Antônio Marcon;Teólogo;15;1980-01-08;Curitiba; Paraná;14;12;male
+Douglas Ferreira;Motoboy;15;1985-11-17;São Paulo; São Paulo;14;13;male
+Francieli Berwanger Medeiros;Conciliadora criminal;15;1978-07-12;Bento Gonçalves; Rio Grande do Sul;14;14;female
+Munik Nunes Barbosa;Estudante;16;1996-07-05;Goiânia; Goiás;14;1;female
+Maria Claudia Macedo Gomes;YouTuber;16;1996-08-07;Santa Cruz; Rio Grande do Norte;14;2;female
+Ronan de Oliveira Veiga;Estudante de Filosofia;16;1988-05-18;Curitiba; Paraná;14;5;male
+Geralda Nascimento Diniz;Professora aposentada;16;1952-11-18;Curvelo; Minas Gerais;14;6;female
+Matheus Carneiro Lisboa;Engenheiro eletricista;16;1990-08-11;Barra Longa; Minas Gerais;14;7;male
+Renan Oliveira de Almeida;Modelo;16;1986-05-22;Amparo; São Paulo;14;8;male
+Adélia de Jesus Soares;Advogada;16;1979-12-26;Suzano; São Paulo;14;9;female
+Ana Paula Machado Renault;Jornalista;16;1981-11-22;Belo Horizonte; Minas Gerais;14;;female
+Tamiel Khan Baiocchi Jacobson;Professor de Ecologia;16;1975-01-16;Goiânia; Goiás;14;10;female
+Juliana Dias;Bailarina;16;1985-01-02;São Paulo; São Paulo;14;11;female
+Daniel Manzieri Heder;Empresário;16;1977-08-13;Rio de Janeiro; Rio de Janeiro;14;12;male
+Alan Marinho Lopes;Doutor em Filosofia;16;1981-09-25;Natal; Rio Grande do Norte;14;;male
+Laércio de Moura;Designer de tatuagem;16;1962-09-01;Curitiba; Paraná;14;13;male
+Rosaly Harumi Ishihara;Jornalista;16;1951-12-02;São Paulo; São Paulo;14;14;female
+Emilly de Araújo Corrêa;Estudante;17;1996-07-24;Eldorado do Sul; Rio Grande do Sul;15;1;female
+Vivian Silveira Amorim;Advogada;17;1993-03-20;Manaus; Amazonas;15;2;female
+Ieda Maria Wobeto;Aposentada;17;1946-04-26;Canoas; Rio Grande do Sul;15;3;female
+Marcos de Oliveira Härter;Cirurgião plástico;17;1979-03-21;Porto Alegre; Rio Grande do Sul;15;;male
+Marinalva de Almeida;Paratleta;17;1977-08-27;Santa Isabel do Ivaí; Paraná;15;5;female
+Ilmar Renato Granja Fonseca;Advogado e cozinheiro;17;1979-01-10;Santo Anastácio; São Paulo;15;6;male
+Daniel Fabiano Fontes;Agente de trânsito;17;1975-06-01;Ferraz de Vasconcelos; São Paulo;15;7;male
+Rômulo Milhomem Freitas Figueira Neves;Diplomata;17;1977-10-31;Brasília; Distrito Federal;15;8;male
+Roberta Freitas Diniz;Estudante de Serviço Social;17;1995-09-20;São Paulo; São Paulo;15;9;female
+Pedro Inzinna Falcão;Jornalista;17;1987-02-09;São Paulo; São Paulo;15;10;male
+Elis Nair da Penha Gonçalves;Comerciante;17;1976-05-06;Brasília; Distrito Federal;15;11;female
+Manoel Augusto Pereira Rafaski;Promotor de eventos;17;1993-10-21;Vitória; Espírito Santo;15;12;male
+Luiz Felipe Barbosa Ribeiro;Comerciante;17;1988-07-15;Maceió; Alagoas;15;13;male
+Mayara Motti Rodrigues;Bacharel em Direito;17;1990-11-07;Belo Horizonte; Minas Gerais;15;14;female
+Gabriela Flor Bitencourt Lucídio Ferreira;Bailarina;17;1989-08-18;Salvador; Bahia;15;15;female
+Gleiciane Damasceno da Silva (Gleici);Estudante de Psicologia;18;1995-02-26;Rio Branco; Acre;18;1;female
+Kaysar Dadour;Garçom;18;1989-07-09;Alepo; Alepo;18;2;male
+Ana Clara Mello Lima;Estudante de Jornalismo;18;1997-04-11;Rio de Janeiro; Rio de Janeiro;18;3;female
+Ayrton dos Santos Lima;Analista de Sistemas;18;1961-12-17;Rio de Janeiro; Rio de Janeiro;18;3;male
+Paula Carolina de Amorim Barbosa;Empresária;18;1989-01-07;Belo Horizonte; Minas Gerais;18;5;female
+Breno Siqueira Simões;Arquiteto;18;1988-04-10;Goiânia; Goiás;18;6;male
+Jéssica Mueller;Personal trainer;18;1991-03-23;Blumenau; Santa Catarina;18;7;female
+Marcos Aurelio Viegas de Carvalho;Músico;18;1984-10-22;São Paulo; São Paulo;18;8;male
+Wagner Santiago Ribeiro;Artista visual;18;1982-09-24;Curitiba; Paraná;18;9;male
+Marcos Antonio Caruso Junior;Publicitário;18;1983-02-03;São Paulo; São Paulo;18;10;male
+Diego Gessualdo Sabádo de Souza;Escritor;18;1986-11-26;Belém; Pará;18;11;male
+Patrícia Camila Leite Lima;Funcionária pública;18;1985-11-16;Icó; Ceará;18;12;female
+Mahamoud Baydoun (Mahmoud);Sexólogo;18;1990-03-29;Manaus; Amazonas;18;13;male
+Lucas Eleutério Fernandes;Empresário;18;1990-05-02;Fortaleza; Ceará;18;14;male
+Nayara Helena de Deus Alves;Jornalista;18;1984-07-25;Santo André; São Paulo;18;15;female
+Ana Paula Costa Agustinho;Estudante de Jornalismo;18;1994-11-19;São José; Santa Catarina;18;16;female
+Jaqueline Grohalski Brito;Biomédica;18;1994-06-14;Rolim de Moura; Rondônia;18;17;female
+Helcimara de Souza Telles (Mara);Cientista política;18;1964-04-11;Governador Valadares; Minas Gerais;18;18;female
+Paula von Sperling Viana;Bacharel em direito;19;1990-11-17;Lagoa Santa; Minas Gerais;17;1;female
+Alan Possamai Barbosa;Administrador e empresário;19;1992-08-01;Criciúma; Santa Catarina;17;2;male
+Carolina Peixinho Sodré;Publicitária e empresária;19;1985-04-12;Salvador; Bahia;17;5;female
+Hariany Nathalia Mesquita de Almeida;Estudante de design de moda;19;1997-09-22;Senador Canedo; Goiás;17;;female
+Rízia de Cerqueira Apolinario;Jornalista;19;1994-01-23;São Miguel dos Campos; Alagoas;17;6;female
+Gabriela Cano Hebling;Designer gráfica e percussionista;19;1986-03-17;Ribeirão Preto; São Paulo;17;7;female
+Rodrigo Ferreira França;Cientista social especializado em direitos humanos e dramaturgo;19;1978-01-28;Rio de Janeiro; Rio de Janeiro;17;8;male
+Elana Valenária Fernandes da Silva;Engenheira agrônoma;19;1993-12-15;Bom Jesus; Piauí;17;9;female
+Danrley Ferreira da Silva;Estudante de biologia e vendedor de picolé;19;1999-01-19;Rio de Janeiro; Rio de Janeiro;17;10;male
+Terezinha Ferreira de Souza Freitas (Tereza);Psicanalista e técnica de enfermagem;19;1966-01-28;Arcoverde; Pernambuco;17;11;female
+Isabella Chiara Nelson Cecchi;Estudante de medicina;19;1994-03-31;Natal; Rio Grande do Norte;17;12;female
+Maycon Santos Oliveira;Barman e vendedor de queijos;19;1991-06-06;Piumhi; Minas Gerais;17;13;male
+Diego Henrique Wantowsky;Empresário e criador de cavalos;19;1988-11-13;Rio Negrinho; Santa Catarina;17;14;male
+Hana Khalil Carvalho Cavalcanti de Albuquerque;Bacharel em Cinema e YouTuber;19;1996-03-18;Rio de Janeiro; Rio de Janeiro;17;15;female
+Gustavo de Léo Soares;Médico oftalmologista;19;1981-02-03;São Paulo; São Paulo;17;16;male
+Vanderson Gomes de Brito;Biólogo e coordenador educacional indígena;19;1983-07-15;Rio Branco; Acre;17;;male
+Vinicius Póvoa Fernandes;Artista plástico e publicitário;19;1978-01-28;Belo Horizonte; Minas Gerais;17;17;male
+Thelma Regina Maria dos Santos Assis;Médica anestesiologista;20;1984-11-18;São Paulo; São Paulo;20;1;female
+Rafaella Freitas Ferreira de Castro (Rafa Kalimann);Influenciadora digital;20;1993-04-02;Campina Verde; Minas Gerais;20;2;female
+Manoela Latini Gavassi Francisco (Manu Gavassi);Atriz e cantora;20;1993-01-04;São Paulo; São Paulo;20;3;female
+Alexandre da Silva Santana (Babu Santana);Ator;20;1979-12-10;Rio de Janeiro; Rio de Janeiro;20;4;male
+Mariana Decânio Gonzalez (Mari Gonzalez);Influenciadora digital;20;1994-02-16;Salvador; Bahia;20;5;female
+Ivy Moraes Barbosa;Modelo;20;1992-04-25;Belo Horizonte; Minas Gerais;20;6;female
+Gizelly Bicalho Abreu;Advogada criminalista;20;1991-10-16;Iúna; Espírito Santo;20;7;female
+Flayslane Raiane Pereira da Silva;Cantora;20;1994-10-19;Nova Floresta; Paraíba;20;8;female
+Marcela Olmedo McGowan;Ginecologista e obstetra;20;1988-11-25;Rancharia; São Paulo;20;9;female
+Gabriela Piedade Martins (Gabi Martins);Cantora;20;1996-12-12;Belo Horizonte; Minas Gerais;20;10;female
+Felipe Antoniazzi Prior;Arquiteto;20;1992-06-18;São Paulo; São Paulo;20;11;male
+Daniel Xavier Lenhardt;Modelo e ator;20;1997-04-29;Selbach; Rio Grande do Sul;20;12;male
+Jaime Young-Lae Cho (Pyong Lee);Hipnólogo e youtuber;20;1992-09-23;São Paulo; São Paulo;20;13;male
+Victor Hugo Silva Teixeira;Psicólogo e cientista de saúde pública;20;1994-02-14;Imperatriz; Maranhão;20;14;male
+Guilherme Napolitano Camargo Mariotto Pieroni;Modelo e jornalista;20;1991-03-08;Presidente Prudente; São Paulo;20;15;male
+Bianca Andrade da Silva (Boca Rosa);Empresária e influenciadora digital;20;1994-10-15;Rio de Janeiro; Rio de Janeiro;20;16;female
+Lucas Becker Gallina;Fisioterapeuta;20;1993-04-10;Florianópolis; Santa Catarina;20;17;male
+Hadson da Silva Nery;Ex-jogador de futebol;20;1981-08-04;Belém; Pará;20;18;male
+Petrix Stevan Aguiar Barbosa;Ginasta;20;1992-03-05;São Paulo; São Paulo;20;19;male
+Lucas Yan Cabral Azeredo Chianca (Lucas Chumbo);Surfista profissional;20;1995-08-25;Saquarema; Rio de Janeiro;20;20;male
+Juliette Freire Feitosa;Advogada e maquiadora;21;1989-12-03;Campina Grande; Paraíba;20;1;female
+Camilla Jesus Santos de Lucas;Influenciadora digital;21;1994-10-13;Nova Iguaçu; Rio de Janeiro;20;2;female
+Filipe Kartalian Ayrosa Galvão (Fiuk);Ator e cantor;21;1990-10-25;São Paulo; São Paulo;20;3;male
+Gilberto José Nogueira Junior;Doutorando em economia;21;1991-07-14;Jaboatão dos Guararapes; Pernambuco;20;5;male
+Viviane de Queiroz Pereira (Pocah);Cantora;21;1994-10-17;Queimados; Rio de Janeiro;20;6;female
+Arthur Louzada Picoli;Instrutor de crossfit;21;1994-06-21;Cachoeiro de Itapemirim; Espírito Santo;20;7;male
+Vitória de Felice Moraes (Viih Tube);Atriz e youtuber;21;2000-08-18;Sorocaba; São Paulo;20;8;female
+João Luiz Pedrosa da Silva;Professor de geografia;21;1996-10-09;Santos Dumont; Minas Gerais;20;9;male
+Caio Farah Afiune;Fazendeiro;21;1989-01-06;Anápolis; Goiás;20;10;male
+Thaís Faria Braz;Cirurgiã-dentista;21;1993-01-25;Luziânia; Goiás;20;11;female
+Rodolffo Matthaus da Silva Rios;Cantor;21;1988-08-24;Uruaçu; Goiás;20;12;male
+Sarah Carolline Vieira de Andrade;Consultora de marketing digital;21;1991-06-22;Brasília; Distrito Federal;20;13;female
+Carla Carolina Moreira Diaz;Atriz;21;1990-11-28;São Paulo; São Paulo;20;14;female
+José Tiago Sabino Pereira (Projota);Cantor e rapper;21;1986-04-11;São Paulo; São Paulo;20;15;male
+Lumena de Aleluia Santos;Psicóloga e DJ;21;1991-04-18;Salvador; Bahia;20;16;female
+Karoline dos Santos de Oliveira (Karol Conká);Apresentadora e cantora;21;1986-01-01;Curitiba; Paraná;20;17;female
+Dilson Alves da Silva Neto (Nego Di);Comediante;21;1994-06-01;Porto Alegre; Rio Grande do Sul;20;18;male
+Arcrebiano de Araújo Silva;Educador físico e modelo;21;1991-12-13;Vila Velha; Espírito Santo;20;19;male
+Lucas Prata Penteado;Ator;21;1996-11-23;São Paulo; São Paulo;20;;male
+Kerline Farias Cardoso Leite;Influenciadora digital e modelo;21;1992-04-23;Fortaleza; Ceará;20;20;female
+Arthur Queiroga Bandeira de Aguiar;Ator e cantor;22;1989-03-03;Rio de Janeiro; Rio de Janeiro;22;1;male
+Paulo André Camilo de Oliveira;Atleta olímpico;22;1998-08-20;Santo André; São Paulo;22;2;male
+Douglas Silva;Ator;22;1988-09-27;Rio de Janeiro; Rio de Janeiro;22;3;male
+Eliezer do Carmo Neto;Designer e empresário;22;1990-01-23;Volta Redonda; Rio de Janeiro;22;6;male
+Pedro Henrique Mota Vianna (Pedro Scooby);Surfista profissional;22;1988-08-10;Rio de Janeiro; Rio de Janeiro;22;7;male
+Gustavo Batista Marsengo;Bacharel em direito;22;1990-07-13;Curitiba; Paraná;22;8;male
+Jessilane Alves de Souza;Bióloga e professora de biologia;22;1995-11-28;Bom Jesus da Lapa; Bahia;22;9;female
+Natália Rocha de Oliveira Deodato;Modelo e designer de unhas;22;2000-01-12;Belo Horizonte; Minas Gerais;22;10;female
+Lina Pereira dos Santos (Linn da Quebrada);Cantora e atriz;22;1990-07-18;São Paulo; São Paulo;22;11;female
+Eslovênia Marques de Lima;Estudante de marketing e modelo;22;1996-11-17;João Pessoa; Paraíba;22;12;female
+Lucas Bissoli Garcia;Engenheiro e estudante de medicina;22;1990-05-07;Vila Velha; Espírito Santo;22;13;male
+Laís Rodrigues Caldas;Médica;22;1991-11-18;Crixás; Goiás;22;14;female
+Marcus Vinicius Fernandes de Sousa;Bacharel em direito;22;1998-01-27;Crato; Ceará;22;15;male
+Jade Picon Froes;Empresária e influenciadora digital;22;2001-09-24;São Paulo; São Paulo;22;16;female
+Larissa Tomásia Arruda;Influenciadora digital e coordenadora de marketing;22;1996-06-16;Limoeiro; Pernambuco;22;17;female
+Tiago Donato Abravanel Corte Gomes;Ator e apresentador;22;1987-10-21;São Paulo; São Paulo;22;;male
+Bruna Gonçalves Coelho Oliveira (Brunna Gonçalves);Bailarina e influenciadora digital;22;1991-12-16;Nilópolis; Rio de Janeiro;22;18;female
+Bárbara Heck;Relações públicas e modelo;22;1992-07-13;Novo Hamburgo; Rio Grande do Sul;22;19;female
+Vitória Nascimento Câmara (Maria);Atriz e cantora;22;2000-07-18;Rio de Janeiro; Rio de Janeiro;22;;female
+Naiara de Fátima Azevedo;Cantora;22;1989-10-30;Campo Mourão; Paraná;22;20;female
+Rodrigo Abrão de Carvalho Mussi Ivo;Gerente comercial;22;1985-09-20;São José dos Campos; São Paulo;22;21;male
+Luciano Estevan Neto da Conceição;Ator e bailarino;22;1993-06-29;Florianópolis; Santa Catarina;22;22;male
