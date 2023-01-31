@@ -2,7 +2,7 @@ from wikitable import wikitable
 from time import sleep
 import pandas as pd
 
-pages = range(1, 23)
+pages = range(1, 24)
 classificacao_geral = [] #Coluna pos.
 participantes = []  #Coluna participante
 audiencia = [] #Coluna Data de transimssão
@@ -39,7 +39,7 @@ for i in tabelas:
         print(f"Preparando tabela {i}")
         concat_table = pd.concat(tabelas[i]).reset_index(drop = True)
         print(f"Salvando tabela {i}")
-        concat_table.to_csv(f"data_raw/{i}.csv", sep = ";", encoding="utf-8-sig")
+        concat_table.to_csv(f"data_raw/{i}.csv", sep = ";", encoding="utf-8-sig", index = False)
         print(f"Tabela {i} salva")
     except:
         print(f"Erro em executar tabela {i}")

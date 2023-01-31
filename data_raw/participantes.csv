@@ -36,8 +36,8 @@
 34;Marcelo Augusto Kretzer;05/04/1980;DJ;Blumenau, Santa Catarina;3º eliminado em 4 de fevereiro de 2003;[17];3;;
 35;Joseane Procasco Guntzell de Oliveira;10/04/1981;Modelo;Canoas, Rio Grande do Sul;2ª eliminada em 28 de janeiro de 2003;[18];3;;
 36;Dilson Walkarez Rodovalho Filho;18/05/1975;Motoqueiro;Campo Grande, Mato Grosso do Sul;Desistente em 25 de janeiro de 2003;[19];3;;
-37;Paulo Roberto Nogueira Carotini;14/10/1969;Fotógrafo;São Paulo, São Paulo;1ª eliminação¹ em 21 de janeiro de 2003;[20];3;;
-38;Samantha Barradas Pereira;26/05/1975;Personal trainer;Rio de Janeiro, Rio de Janeiro;1ª eliminação¹ em 21 de janeiro de 2003;[21];3;;
+37;Paulo Roberto Nogueira Carotini;14/10/1969;Fotógrafo;São Paulo, São Paulo;1º eliminado¹ em 21 de janeiro de 2003;[20];3;;
+38;Samantha Barradas Pereira;26/05/1975;Personal trainer;Rio de Janeiro, Rio de Janeiro;1ª eliminada¹ em 21 de janeiro de 2003;[21];3;;
 39;Gecilda da Silva dos Santos (Cida);26/02/1983;Babá;Mangaratiba, Rio de Janeiro;Vencedora em 6 de abril de 2004;[5];4;;
 40;Thiago Lira dos Santos;08/06/1982;Auxiliar de contas;São Gonçalo, Rio de Janeiro;2º lugar em 6 de abril de 2004;[6];4;;
 41;Juliana Lopes Leite;09/07/1980;Promotora de eventos;Brasília, Distrito Federal;12ª eliminada em 4 de abril de 2004;[7];4;;
@@ -56,10 +56,10 @@
 54;Grazielli Massafera;28/06/1982;Modelo;Jacarezinho, Paraná;2º lugar em 29 de março de 2005;[8];5;;
 55;Sammy Yukio Ueda;12/09/1978;Comerciante;Indaiatuba, São Paulo;3º lugar em 29 de março de 2005;[9];5;;
 56;Alan Henrique Passos dos Santos;24/05/1978;Engenheiro mecânico;Belo Horizonte, Minas Gerais;11º eliminado em 27 de março de 2005;[10];5;;
-57;Tatiane Franklin do Nascimento Barbosa (Tatiane Pink);08/04/1980;Cabeleireira;Recife, Pernambuco;10ª eliminada em 22 de março de 2005;[11];5;;
+57;Tatiane Franklin do Nascimento Barbosa (Tati Pink);08/04/1980;Cabeleireira;Recife, Pernambuco;10ª eliminada em 22 de março de 2005;[11];5;;
 58;Karla Patrícia Pereira Barbosa;06/07/1983;Dançarina;Recife, Pernambuco;9ª eliminada em 15 de março de 2005;[12];5;;
 59;Aline Cristina Tertuliano dos Santos;04/10/1985;Estudante;Rio de Janeiro, Rio de Janeiro;8ª eliminada em 8 de março de 2005;[13];5;;
-60;Tatiana Machado Souza;28/03/1977;Promotora de eventos;Rio de Janeiro, Rio de Janeiro;7ª eliminada em 1º de março de 2005;[14];5;;
+60;Tatiana Machado Souza (Tati Rio);28/03/1977;Promotora de eventos;Rio de Janeiro, Rio de Janeiro;7ª eliminada em 1º de março de 2005;[14];5;;
 61;Natália Nara de Oliveira Ramos;24/09/1983;Modelo/VJ;Fortaleza, Ceará;6ª eliminada em 22 de fevereiro de 2005;[15];5;;
 62;Paulo André Mázio Costa;15/03/1981;Consultor de informática;Guarulhos, São Paulo;5º eliminado em 15 de fevereiro de 2005;[16];5;;
 63;Rogério Mata Padovan;05/09/1977;Médico;Ribeirão Preto, São Paulo;4º eliminado em 8 de fevereiro de 2005;[17];5;;
@@ -96,8 +96,8 @@
 94;Alan Pierre de Carvalho Miranda;;Estudante de Administração;Recife, Pernambuco;4º eliminado em 30 de janeiro de 2007;[33];7;06/10/1985;
 95;Liane Fernanda de Souza Mendes;;Estudante de Direito;Florianópolis, Santa Catarina;3ª eliminada em 23 de janeiro de 2007;[34];7;30/01/1980;
 96;Daniel Ambrósio Bellangero;;Técnico esportivo;Barueri, São Paulo;2º eliminado em 16 de janeiro de 2007;[35];7;30/04/1980;
-97;Juliana Lima de Regueiro;;Tradutora;Brasília, Distrito Federal;1ª eliminada em 11 de janeiro de 2007;[36];7;14/06/1977;
-98;Airton da Silva Cabral;;Designer;Rio de Janeiro, Rio de Janeiro;1º eliminado (1ª vez) em 11 de janeiro de 2007;[25];7;30/11/1981;
+97;Juliana Lima de Regueiro;;Tradutora;Brasília, Distrito Federal;1ª eliminada¹ em 11 de janeiro de 2007;[36];7;14/06/1977;
+98;Airton da Silva Cabral;;Designer;Rio de Janeiro, Rio de Janeiro;1º eliminado¹ (1ª vez) em 11 de janeiro de 2007;[25];7;30/11/1981;
 99;Fernando Orozco Bitencourt de Oliveira;;Engenheiro de Produção;São Paulo, São Paulo;Expulso em 9 de janeiro de 2007;[9];7;?;
 100;Rafael Ribeiro Medeiros de Carvalho (Rafinha);23/09/1981;Músico;Campinas, São Paulo;Vencedor em 25 de março de 2008;[4];8;;
 101;Gyselle Soares Estevão;27/10/1983;Modelo;Teresina, Piauí;2º lugar em 25 de março de 2008;[5];8;;
@@ -116,21 +116,21 @@
 114;Maximiliano de Oliveira Porto;12/12/1978;Artista plástico;Maricá, Rio de Janeiro;Vencedor em 7 de abril de 2009;[8];9;;
 115;Priscila Tavares Ferreira Pires dos Santos;31/07/1982;Modelo e jornalista;Campo Grande, Mato Grosso do Sul;2º lugar em 7 de abril de 2009;[9];9;;
 116;Francine Piaia Lemos;28/06/1983;Professora;Rio Grande, Rio Grande do Sul;3º lugar em 7 de abril de 2009;[10];9;;
-117;Ana Carolina Martins Madeira;10/02/1984;Bacharel em Direito;Florianópolis, Santa Catarina;14ª eliminada em 5 de abril de 2009;[11];9;;
+117;Ana Carolina Martins Madeira;10/02/1984;Bacharel em direito;Florianópolis, Santa Catarina;14ª eliminada em 5 de abril de 2009;[11];9;;
 118;Flávio Steffli Júnior;13/04/1983;Produtor de eventos;Caxias do Sul, Rio Grande do Sul;13º eliminado em 31 de março de 2009;[12];9;;
 119;Josiane Belizário de Oliveira;08/07/1978[nota 1];Cantora;Juiz de Fora, Minas Gerais;12ª eliminada em 29 de março de 2009;[14];9;;
 120;Milena de Brito Fagundes;29/07/1976;Assessora de imprensa;Manaus, Amazonas;11ª eliminada em 24 de março de 2009;[15];9;;
 121;Naiá da Graça Barros Giannocaro;15/11/1947;Promotora de eventos;São Paulo, São Paulo;10ª eliminada em 17 de março de 2009;[16];9;;
-122;Maíra Cardi;05/09/1983;Modelo e Apresentadora;São Caetano do Sul, São Paulo;9ª eliminada em 10 de março de 2009;[17];9;;
+122;Maíra Cardi de Faria;05/09/1983;Modelo e apresentadora;São Caetano do Sul, São Paulo;9ª eliminada em 10 de março de 2009;[17];9;;
 123;Ralf Krause Reis Machado;14/05/1976;Empresário;São Paulo, São Paulo;8º eliminado em 3 de março de 2009;[18];9;;
 124;Mirla Araújo Prado;01/12/1981;Advogada;Belém, Pará;7ª eliminada em 1 de março de 2009;[19];9;;
 125;André Luis Gusmão de Almeida;23/04/1974[nota 2];Cantor sertanejo;São Bernardo do Campo, São Paulo;6º eliminado em 24 de fevereiro de 2009;[21];9;;
-126;Emanuel Tiago Milchevski;07/07/1984;Estudante de Administração;São Bento do Sul, Santa Catarina;5º eliminado em 17 de fevereiro de 2009;[22];9;;
-127;Newton da Silva Siqueira;24/09/1979;Modelo e Empresário;Porto Alegre, Rio Grande do Sul;4º eliminado em 10 de fevereiro de 2009;[23];9;;
+126;Emanuel Tiago Milchevski;07/07/1984;Estudante de administração;São Bento do Sul, Santa Catarina;5º eliminado em 17 de fevereiro de 2009;[22];9;;
+127;Newton da Silva Siqueira;24/09/1979;Modelo e empresário;Porto Alegre, Rio Grande do Sul;4º eliminado em 10 de fevereiro de 2009;[23];9;;
 128;Alexandre Gomes da Silva;13/10/1973;Administrador de empresas;Olinda, Pernambuco;3º eliminado em 3 de fevereiro de 2009;[24];9;;
-129;Leonardo Jancu;10/05/1983;Estudante de Administração;São Paulo, São Paulo;Desistente em 2 de fevereiro de 2009;[25];9;;
-130;Norberto Carias dos Santos;30/03/1945[nota 3];Radialista e Ator;São Carlos, São Paulo;2º eliminado em 27 de janeiro de 2009;[27];9;;
-131;Michelle Julianne Fernandes da Costa;20/07/1984;Estudante de Direito e Modelo;Recife, Pernambuco;1ª eliminada em 20 de janeiro de 2009;[28];9;;
+129;Leonardo Jancu;10/05/1983;Estudante de administração;São Paulo, São Paulo;Desistente em 2 de fevereiro de 2009;[25];9;;
+130;Norberto Carias dos Santos;30/03/1945[nota 3];Radialista e ator;São Carlos, São Paulo;2º eliminado em 27 de janeiro de 2009;[27];9;;
+131;Michelle Julianne Fernandes da Costa;20/07/1984;Estudante de direito e modelo;Recife, Pernambuco;1ª eliminada em 20 de janeiro de 2009;[28];9;;
 132;Marcelo Pereira Dourado Big Brother Brasil 4;29/04/1972;Lutador;Porto Alegre, Rio Grande do Sul;Vencedor em 30 de março de 2010;[9];10;;
 133;Fernanda Helena Cardoso;04/12/1981;Dentista;São José dos Campos, São Paulo;2º lugar em 30 de março de 2010;[10];10;;
 134;Carlos Eduardo de Nascimento Parga (Cadu);04/04/1985;Personal trainer;Rio de Janeiro, Rio de Janeiro;3º lugar em 30 de março de 2010;[11];10;;
@@ -157,15 +157,15 @@
 155;Jaqueline Faria Louriçal;21/10/1983;Dançarina e modelo;Rio de Janeiro, Rio de Janeiro;12ª eliminada em 15 de março de 2011;[18];11;;
 156;Luiz Maurício Bento Joaquim;14/04/1983;Músico;Rio de Janeiro, Rio de Janeiro;11º eliminado (2ª vez) em 13 de março de 2011;[19];11;;
 157;Talula Pascoli;28/07/1981;Modelo;São Paulo, São Paulo;10ª eliminada em 8 de março de 2011;[20];11;;
-158;Janaína dos Santos;03/03/1985;Bailarina;São Paulo, São Paulo;9ª eliminação² em 1 de março de 2011;[21];11;;
-159;Diogo Preto;21/10/1986;Coreógrafo;Salvador, Bahia;9ª eliminação² em 1 de março de 2011;[22];11;;
+158;Janaína dos Santos;03/03/1985;Bailarina;São Paulo, São Paulo;9ª eliminada² em 1 de março de 2011;[21];11;;
+159;Diogo Preto;21/10/1986;Coreógrafo;Salvador, Bahia;9º eliminado² em 1 de março de 2011;[22];11;;
 160;Adriana Ribeiro Sant'anna;06/02/1991;Estudante de odontologia e modelo;Campos dos Goytacazes, Rio de Janeiro;8ª eliminada em 22 de fevereiro de 2011;[23];11;;
 161;Natália Cristina Pinto de Castro;21/09/1983;Analista criminal;Coronel Fabriciano, Minas Gerais;7ª eliminada em 15 de fevereiro de 2011;[24];11;;
 162;Lucival Nascimento França;06/02/1981;Jornalista;Salvador, Bahia;6º eliminado em 13 de fevereiro de 2011;[25];11;;
 163;Cristiano Zanelato Amado Naya;24/03/1977;Engenheiro mecatrônico;São Paulo, São Paulo;5º eliminado em 8 de fevereiro de 2011;[26];11;;
 164;Igor Gramani Serra;30/11/1985;Barman e rapper;São Paulo, São Paulo;4º eliminado em 1 de fevereiro de 2011;[27];11;;
-165;Michelly Cristina de Freitas Pereira;14/08/1983;Promotora de eventos;São Paulo, São Paulo;3ª eliminação¹ em 30 de janeiro de 2011;[28];11;;
-166;Rodrigo da Silva Carvalho;29/01/1984;Administrador;Jaboatão dos Guararapes, Pernambuco;3ª eliminação¹ em 30 de janeiro de 2011;[29];11;;
+165;Michelly Cristina de Freitas Pereira;14/08/1983;Promotora de eventos;São Paulo, São Paulo;3ª eliminada¹ em 30 de janeiro de 2011;[28];11;;
+166;Rodrigo da Silva Carvalho;29/01/1984;Administrador;Jaboatão dos Guararapes, Pernambuco;3º eliminado¹ em 30 de janeiro de 2011;[29];11;;
 167;Luiz Maurício Bento Joaquim;14/04/1983;Músico;Rio de Janeiro, Rio de Janeiro;2º eliminado (1ª vez) em 25 de janeiro de 2011;[19];11;;
 168;Ariadna Thalia da Silva Arantes;03/06/1984;Cabeleireira;Rio de Janeiro, Rio de Janeiro;1ª eliminada em 18 de janeiro de 2011;[30];11;;
 169;Rafael Alves Cordeiro (Fael);23/11/1986;Médico veterinário;Aral Moreira, Mato Grosso do Sul;Vencedor em 29 de março de 2012;[53];12;;
@@ -235,20 +235,20 @@
 233;Marco Antônio Marcon;;Teólogo;Curitiba, Paraná;3º eliminado em 10 de fevereiro de 2015;[58];15;08/01/1980;
 234;Douglas Ferreira;;Motoboy;São Paulo, São Paulo;2º eliminado em 3 de fevereiro de 2015;[59];15;17/11/1985;
 235;Francieli Berwanger Medeiros;;Conciliadora criminal;Bento Gonçalves, Rio Grande do Sul;1ª eliminada em 27 de janeiro de 2015;[60][61];15;12/07/1978;
-236;Munik Nunes Barbosa;05/07/1996;Estudante;Goiânia, Goiás;Vencedora em 5 de abril de 2016;[36];16;;
-237;Maria Claudia Macedo Gomes;07/08/1996;YouTuber;Santa Cruz, Rio Grande do Norte;2º lugar em 5 de abril de 2016;[37];16;;
-238;Ronan de Oliveira Veiga;18/05/1988;Estudante de Filosofia;Curitiba, Paraná;10º eliminado em 3 de abril de 2016;[38];16;;
-239;Geralda Nascimento Diniz;18/11/1952;Professora aposentada;Curvelo, Minas Gerais;9ª eliminada em 1 de abril de 2016;[39];16;;
-240;Matheus Carneiro Lisboa;11/08/1990;Engenheiro eletricista;Barra Longa, Minas Gerais;8º eliminado em 22 de março de 2016;[40];16;;
-241;Renan Oliveira de Almeida;22/05/1986;Modelo;Amparo, São Paulo;7º eliminado em 15 de março de 2016;[41];16;;
-242;Adélia de Jesus Soares;26/12/1979;Advogada;Suzano, São Paulo;6ª eliminada em 8 de março de 2016;[42];16;;
-243;Ana Paula Machado Renault;22/11/1981;Jornalista;Belo Horizonte, Minas Gerais;Expulsa em 5 de março de 2016;[43];16;;
-244;Tamiel Khan Baiocchi Jacobson;16/01/1975;Professor de Ecologia;Goiânia, Goiás;5º eliminado em 1 de março de 2016;[44];16;;
-245;Juliana Dias;02/01/1985;Bailarina;São Paulo, São Paulo;4ª eliminada em 23 de fevereiro de 2016;[45];16;;
-246;Daniel Manzieri Heder;13/08/1977;Empresário;Rio de Janeiro, Rio de Janeiro;3º eliminado em 16 de fevereiro de 2016;[46];16;;
-247;Alan Marinho Lopes;25/09/1981;Doutor em Filosofia;Natal, Rio Grande do Norte;Desistente em 5 de fevereiro de 2016;[47];16;;
-248;Laércio de Moura;01/09/1962;Designer de tatuagem;Curitiba, Paraná;2º eliminado em 2 de fevereiro de 2016;[48];16;;
-249;Rosaly Harumi Ishihara;02/12/1951;Jornalista;São Paulo, São Paulo;1ª eliminada em 26 de janeiro de 2016;[49];16;;
+236;Munik Nunes Barbosa de Pina;05/07/1996;Estudante;Goiânia, Goiás;Vencedora em 5 de abril de 2016;[50];16;;
+237;Maria Claudia Macedo Gomes;07/08/1996;YouTuber;Santa Cruz, Rio Grande do Norte;2º lugar em 5 de abril de 2016;[51];16;;
+238;Ronan de Oliveira Veiga;18/05/1988;Estudante de Filosofia;Curitiba, Paraná;10º eliminado em 3 de abril de 2016;[52];16;;
+239;Geralda Nascimento Diniz;18/11/1952;Professora aposentada;Curvelo, Minas Gerais;9ª eliminada em 1 de abril de 2016;[53];16;;
+240;Matheus Carneiro Lisboa;11/08/1990;Engenheiro eletricista;Barra Longa, Minas Gerais;8º eliminado em 22 de março de 2016;[54];16;;
+241;Renan Oliveira de Almeida;22/05/1986;Modelo;Amparo, São Paulo;7º eliminado em 15 de março de 2016;[55];16;;
+242;Adélia de Jesus Soares;26/12/1979;Advogada;Suzano, São Paulo;6ª eliminada em 8 de março de 2016;[56];16;;
+243;Ana Paula Machado Renault;22/11/1981;Jornalista;Belo Horizonte, Minas Gerais;Expulsa em 5 de março de 2016;[57];16;;
+244;Tamiel Khan Baiocchi Jacobson;16/01/1975;Professor de Ecologia;Goiânia, Goiás;5º eliminado em 1 de março de 2016;[58];16;;
+245;Juliana Dias;02/01/1985;Bailarina;São Paulo, São Paulo;4ª eliminada em 23 de fevereiro de 2016;[59];16;;
+246;Daniel Manzieri Heder;13/08/1977;Empresário;Rio de Janeiro, Rio de Janeiro;3º eliminado em 16 de fevereiro de 2016;[60];16;;
+247;Alan Marinho Lopes;25/09/1981;Doutor em Filosofia;Natal, Rio Grande do Norte;Desistente em 5 de fevereiro de 2016;[61];16;;
+248;Laércio de Moura;01/09/1962;Designer de tatuagem;Curitiba, Paraná;2º eliminado em 2 de fevereiro de 2016;[62];16;;
+249;Rosaly Harumi Ishihara;02/12/1951;Jornalista;São Paulo, São Paulo;1ª eliminada em 26 de janeiro de 2016;[63];16;;
 250;Emilly de Araújo Corrêa;24/07/1996;Estudante;Eldorado do Sul, Rio Grande do Sul;Vencedora em 13 de abril de 2017;[82];17;;
 251;Vivian Silveira Amorim;20/03/1993;Advogada;Manaus, Amazonas;2º lugar em 13 de abril de 2017;[83];17;;
 252;Ieda Maria Wobeto;26/04/1946;Aposentada;Canoas, Rio Grande do Sul;3º lugar em 13 de abril de 2017;[84];17;;
@@ -300,14 +300,14 @@
 298;Vanderson Gomes de Brito;;Biólogo e coordenador educacional indígena;Rio Branco, Acre;Expulso em 23 de janeiro de 2019;[128];19;;15/07/1983
 299;Vinicius Póvoa Fernandes;;Artista plástico e publicitário;Belo Horizonte, Minas Gerais;1º eliminado em 22 de janeiro de 2019;[129];19;;28/01/1978
 300;Thelma Regina Maria dos Santos Assis;;Médica anestesiologista;São Paulo, São Paulo;Vencedora em 27 de abril de 2020;[137];20;;18/11/1984
-301;Rafaella Freitas Ferreira de Castro (Rafa Kalimann);;Influenciadora digital;Campina Verde, Minas Gerais;2º lugar em 27 de abril de 2020;[138];20;;02/04/1993
+301;Rafaella Freitas Ferreira de Castro Matthaus (Rafa Kalimann);;Influenciadora digital;Campina Verde, Minas Gerais;2º lugar em 27 de abril de 2020;[138];20;;02/04/1993
 302;Manoela Latini Gavassi Francisco (Manu Gavassi);;Atriz e cantora;São Paulo, São Paulo;3º lugar em 27 de abril de 2020;[139];20;;04/01/1993
 303;Alexandre da Silva Santana (Babu Santana);;Ator;Rio de Janeiro, Rio de Janeiro;17º eliminado em 25 de abril de 2020;[140];20;;10/12/1979
 304;Mariana Decânio Gonzalez (Mari Gonzalez);;Influenciadora digital;Salvador, Bahia;16ª eliminada em 21 de abril de 2020;[141];20;;16/02/1994
 305;Ivy Moraes Barbosa;;Modelo;Belo Horizonte, Minas Gerais;15ª eliminada em 19 de abril de 2020;[142];20;;25/04/1992
 306;Gizelly Bicalho Abreu;;Advogada criminalista;Iúna, Espírito Santo;14ª eliminada em 14 de abril de 2020;[143];20;;16/10/1991
 307;Flayslane Raiane Pereira da Silva;;Cantora;Nova Floresta, Paraíba;13ª eliminada em 12 de abril de 2020;[144];20;;19/10/1994
-308;Marcela Olmedo McGowan;;Ginecologista e obstetra;Rancharia, São Paulo;12ª eliminada em 7 de abril de 2020;[145];20;;25/11/1988
+308;Marcela Olmedo Mc Gowan;;Ginecologista e obstetra;Rancharia, São Paulo;12ª eliminada em 7 de abril de 2020;[145];20;;25/11/1988
 309;Gabriela Piedade Martins (Gabi Martins);;Cantora;Belo Horizonte, Minas Gerais;11ª eliminada em 5 de abril de 2020;[146];20;;12/12/1996
 310;Felipe Antoniazzi Prior;;Arquiteto;São Paulo, São Paulo;10º eliminado em 31 de março de 2020;[147];20;;18/06/1992
 311;Daniel Xavier Lenhardt;;Modelo e ator;Selbach, Rio Grande do Sul;9º eliminado em 24 de março de 2020;[148];20;;29/04/1997
@@ -343,7 +343,7 @@
 341;Paulo André Camilo de Oliveira;;Atleta olímpico;Santo André, São Paulo;2º lugar em 26 de abril de 2022;[127];22;;20/08/1998
 342;Douglas Silva;;Ator;Rio de Janeiro, Rio de Janeiro;3º lugar em 26 de abril de 2022;[128];22;;27/09/1988
 343;Eliezer do Carmo Neto;;Designer e empresário;Volta Redonda, Rio de Janeiro;17º eliminado em 24 de abril de 2022;[129];22;;23/01/1990
-344;Pedro Henrique Mota Vianna (Pedro Scooby);;Surfista profissional;Rio de Janeiro, Rio de Janeiro;16º eliminado em 21 de abril de 2022;[130];22;;10/08/1988
+344;Pedro Henrique Mota Vianna (Scooby);;Surfista profissional;Rio de Janeiro, Rio de Janeiro;16º eliminado em 21 de abril de 2022;[130];22;;10/08/1988
 345;Gustavo Batista Marsengo;;Bacharel em direito;Curitiba, Paraná;15º eliminado em 19 de abril de 2022;[131];22;;13/07/1990
 346;Jessilane Alves de Souza;;Bióloga e professora de biologia;Bom Jesus da Lapa, Bahia;14ª eliminada em 17 de abril de 2022;[132];22;;28/11/1995
 347;Natália Rocha de Oliveira Deodato;;Modelo e designer de unhas;Belo Horizonte, Minas Gerais;13ª eliminada em 12 de abril de 2022;[133];22;;12/01/2000
@@ -353,11 +353,33 @@
 351;Laís Rodrigues Caldas;;Médica;Crixás, Goiás;9ª eliminada em 22 de março de 2022;[137];22;;18/11/1991
 352;Marcus Vinicius Fernandes de Sousa;;Bacharel em direito;Crato, Ceará;8º eliminado em 15 de março de 2022;[138];22;;27/01/1998
 353;Jade Picon Froes;;Empresária e influenciadora digital;São Paulo, São Paulo;7ª eliminada em 8 de março de 2022;[139];22;;24/09/2001
-354;Larissa Tomásia Arruda;;Influenciadora digital e coordenadora de marketing;Limoeiro, Pernambuco;6ª eliminada em 1 de março de 2022;[140];22;;16/06/1996
+354;Larissa Tomásia Arruda;;Coordenadora de marketing e influenciadora digital;Limoeiro, Pernambuco;6ª eliminada em 1 de março de 2022;[140];22;;16/06/1996
 355;Tiago Donato Abravanel Corte Gomes;;Ator e apresentador;São Paulo, São Paulo;Desistente em 27 de fevereiro de 2022;[141];22;;21/10/1987
-356;Bruna Gonçalves Coelho Oliveira (Brunna Gonçalves);;Bailarina e influenciadora digital;Nilópolis, Rio de Janeiro;5ª eliminada em 22 de fevereiro de 2022;[142];22;;16/12/1991
+356;Bruna Gonçalves Coelho Oliveira (Brunna);;Bailarina e influenciadora digital;Nilópolis, Rio de Janeiro;5ª eliminada em 22 de fevereiro de 2022;[142];22;;16/12/1991
 357;Bárbara Heck;;Relações públicas e modelo;Novo Hamburgo, Rio Grande do Sul;4ª eliminada em 15 de fevereiro de 2022;[143];22;;13/07/1992
 358;Vitória Nascimento Câmara (Maria);;Atriz e cantora;Rio de Janeiro, Rio de Janeiro;Expulsa em 15 de fevereiro de 2022;[144];22;;18/07/2000
 359;Naiara de Fátima Azevedo;;Cantora;Campo Mourão, Paraná;3ª eliminada em 8 de fevereiro de 2022;[145];22;;30/10/1989
 360;Rodrigo Abrão de Carvalho Mussi Ivo;;Gerente comercial;São José dos Campos, São Paulo;2º eliminado em 1 de fevereiro de 2022;[146];22;;20/09/1985
 361;Luciano Estevan Neto da Conceição;;Ator e bailarino;Florianópolis, Santa Catarina;1º eliminado em 25 de janeiro de 2022;[147];22;;29/06/1993
+362;Aline Wirley da Silva;;Cantora;São Paulo, São Paulo;;[39];23;;18/12/1981
+363;Amanda Alice de França Meirelles;;Médica;Astorga, Paraná;;[40];23;;22/03/1991
+364;Antonio Carlos Coelho Barbosa Júnior (Cara de Sapato);;Lutador de MMA;João Pessoa, Paraíba;;[41];23;;16/03/1990
+365;Bruna Grigoriadis Orphao (Bruna Griphao);;Atriz;Rio de Janeiro, Rio de Janeiro;;[42];23;;10/03/1999
+366;Bruno Rafael Nogueira da Silva;;Atendente de farmácia;São José da Laje, Alagoas;;[43];23;;06/12/1990
+367;Cezar Black Bina Cruz;;Enfermeiro;Salvador, Bahia;;[44];23;;24/02/1988
+368;Cristian Vanelli Bianchin;;Empresário;Caxias do Sul, Rio Grande do Sul;;[45];23;;19/03/1990
+369;Domitila Barros de Oliveira Nascimento;;Modelo e ativista social;Recife, Pernambuco;;[46];23;;27/06/1984
+370;Bruno Carneiro Nunes (Fred);;Jornalista e influenciador digital;São Paulo, São Paulo;;[47];23;;25/04/1989
+371;Fred William Nicácio Souza de Oliveira;;Médico e fisioterapeuta;Campos dos Goytacazes, Rio de Janeiro;;[48];23;;23/02/1987
+372;Gabriel Cordeiro Santana;;Ator;São Paulo, São Paulo;;[49];23;;27/09/1999
+373;Gabriel Frias Tavares;;Administrador e modelo;Ribeirão Preto, São Paulo;;[50];23;;23/09/1998
+374;Gustavo Harres Benedeti;;Fazendeiro e empresário;Primavera do Leste, Mato Grosso;;[51];23;;07/02/1995
+375;Keyla Alves Ramalho (Key);;Jogadora de vôlei;Bauru, São Paulo;;[52];23;;08/01/2000
+376;Larissa Espindola dos Santos;;Professora de educação física;Sombrio, Santa Catarina;;[53];23;;14/05/1998
+377;Marília Miranda Rocha de Oliveira;;Maquiadora e influenciadora digital;Natal, Rio Grande do Norte;;[54];23;;06/04/1990
+378;Kassia Freire Marvila (Marvvila);;Cantora;Rio de Janeiro, Rio de Janeiro;;[55];23;;14/05/1999
+379;Guilherme Aparecido Dantas Pinho (MC Guimê);;Cantor e compositor;Osasco, São Paulo;;[56];23;;10/11/1992
+380;Paula Lailla Freitas Ribeiro;;Biomédica;Jacundá, Pará;;[57];23;;25/06/1994
+381;Ricardo Souza Camargo;;Biomédico;Aracaju, Sergipe;;[58];23;;15/04/1992
+382;Sarah Aline Rodrigues;;Psicóloga e analista de diversidade;Osasco, São Paulo;;[59];23;;08/11/1997
+383;Albertina Maria Calamba (Tina);;Analista de marketing e modelo;Benguela, Benguela, Angola;;[60];23;;03/06/1993
